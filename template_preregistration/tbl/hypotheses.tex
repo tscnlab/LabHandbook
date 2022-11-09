@@ -1,0 +1,31 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+% \usepackage{graphicx}
+\begin{table}[h]
+\footnotesize
+\centering
+\caption{Hypotheses and associated tests}
+\label{tbl_hypotheses}
+
+\begin{tabularx}{\textwidth}{XXXXXXXX}
+\toprule
+Confirmatory or exploratory &
+  Hypothesis &
+  Outcome measure &
+  Sampling plan &
+  Analysis plan &
+  Interpretation \\ 
+\midrule
+\multirow{2}{*}{\textit{Confirmatory}} &
+  H1 &
+  Circadian phase shift (difference between DLMO) &
+  \multirow{3}{*}{fixed N ($n=20$)} &
+  Linear mixed model &
+   \\
+                     & H2 &  &  &  &  \\
+\textit{Exploratory} &    &  &  &  &  \\ 
+\bottomrule
+\end{tabularx}
+
+\end{table}
