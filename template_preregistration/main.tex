@@ -4,6 +4,7 @@
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{charter}
 \usepackage{epstopdf}
 \usepackage{csquotes} % enquote{...}
 %\usepackage{booktabs} % pretty tables
@@ -58,8 +59,17 @@
 % change to \excludecomment to make description disappear
 \includecomment{prereg}
 \excludecomment{hidden}
-
 \definecolor{grey}{rgb}{0.5, 0.5, 0.5}
+
+%% new commands
+\newcommand{\consort}[1]{
+    \begin{flushleft}
+    \begin{color}{grey} 
+        \noindent [#1]
+    \end{color}
+    \end{flushleft}
+}
+%% new environments
 \newenvironment{instruction}{
     \medskip
     \begin{color}{grey}
@@ -72,6 +82,8 @@
     \end{color}
     \medskip
 }
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
