@@ -1,0 +1,6 @@
+[book]
+authors = ["Hannah Sophie Heinrichs"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Standard Operating Procedure"
