@@ -6,13 +6,13 @@ _Before publishing the SOP for a device, delete any examples and italic descript
 
 _For creating neat tables, you can use a [Online Table Generator](https://www.tablesgenerator.com/markdown_tables)._
 
-| Owner     | [Firstname Lastname](mailto:firstname.lastname@domain.de) |
+| Device    | Brand, Model                                              |
 |-----------|-----------------------------------------------------------|
-| Version   | _Start with 1.0.0_                                        |
-| Date      | dd.mm.YYYY                                                |
 | Objective | _Describe objective of measurements_                      |
+| Owner     | [Firstname Lastname](mailto:firstname.lastname@domain.de) |
+| Version   | _Start with 1.0.0_                                        |
 | Last edit | [Firstname Lastname](mailto:firstname.lastname@domain.de) |
-
+| Date      | dd.mm.YYYY                                                |
 
 ## Start up
 
