@@ -12,7 +12,7 @@ _For creating neat tables, you can use a [Online Table Generator](https://www.ta
 | Date      | dd.mm.YYYY                                                |
 | Objective | _Describe objective of measurements_                      |
 | Last edit | [Firstname Lastname](mailto:firstname.lastname@domain.de) |
-
+| Device    | Brand, Model                                              |
 
 ## Start up
 
