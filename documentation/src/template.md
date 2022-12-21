@@ -6,22 +6,26 @@ _Before publishing the SOP for a device, delete any examples and italic descript
 
 _For creating neat tables, you can use a [Online Table Generator](https://www.tablesgenerator.com/markdown_tables)._
 
-| Device    | Brand, Model                                              |
-|-----------|-----------------------------------------------------------|
-| Objective | _Describe objective of measurements_                      |
-| Owner     | [Firstname Lastname](mailto:firstname.lastname@domain.de) |
-| Version   | _Start with 1.0.0_                                        |
-| Last edit | [Firstname Lastname](mailto:firstname.lastname@domain.de) |
-| Date      | dd.mm.YYYY                                                |
+| Device       | Brand, Model                                              |
+|--------------|-----------------------------------------------------------|
+| Objective    | _Describe objective of measurements_                      |
+| Owner        | [Firstname Lastname](mailto:firstname.lastname@domain.de) |
+| Reviewer     | [Firstname Lastname](mailto:firstname.lastname@domain.de) |
+| Approver     | [Firstname Lastname](mailto:firstname.lastname@domain.de) |
+| Contributors | [Firstname Lastname](mailto:firstname.lastname@domain.de) |
+| Version      | _Start with 1.0.0_                                        |
+| Last edit    | [Firstname Lastname](mailto:firstname.lastname@domain.de) |
+| Date         | dd.mm.YYYY                                                |
 
 ## Start up
 
 _Describe how to start up devices_
 
-* Checklist
-    1. Device A
-    1. Device B
-    1. etc.
+* Checklist for materials
+    1. Device
+    2. Accessories
+    3. Parts
+    4. etc.
 * Start up system
     1. Turn on power strip 
     1. etc.
