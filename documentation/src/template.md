@@ -22,10 +22,11 @@ _For creating neat tables, you can use a [Online Table Generator](https://www.ta
 _Describe how to start up devices_
 
 * Checklist for materials
-    1. Device
-    2. Accessories
-    3. Parts
-    4. etc.
+    1. Device model & serial number
+    3. Accessories
+    4. Parts
+    5. Software with version number
+    6. etc.
 * Start up system
     1. Turn on power strip 
     1. etc.
