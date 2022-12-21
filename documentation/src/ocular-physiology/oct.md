@@ -1,42 +1,57 @@
 
-| Device    | TOPCON 2000 OCT                                           |
-|-----------|-----------------------------------------------------------|
-| Objective | Measuring ocular physiology                               |
-| Owner     | [Hannah S. Heinrichs](mailto:hannah.heinrichs@tuebingen.mpg.de) |
-| Version   | 1.0.0                                                     |
-| Last edit | [Hannah S. Heinrichs](mailto:hannah.heinrichs@tuebingen.mpg.de) |
-| Date      | 11.11.2022                                                |
+| Device       | Topcon 2000 OCT                                                 |
+|--------------|-----------------------------------------------------------------|
+| Objective    | Measuring ocular physiology                                     |
+| Owner        | [Hannah S. Heinrichs](mailto:hannah.heinrichs@tuebingen.mpg.de) |
+| Reviewer     |                                                                 |
+| Approver     |                                                                 |
+| Contributors | [Hannah S. Heinrichs](mailto:hannah.heinrichs@tuebingen.mpg.de) |
+| Version      | 1.0.0                                                           |
+| Last edit    | [Hannah S. Heinrichs](mailto:hannah.heinrichs@tuebingen.mpg.de) |
+| Date         | 11.11.2022                                                      |
 
 
+## Start up
 
-# Start up
-| Owner | @Hannah Sophie Heinrichs  |
-| --- | --- |
-| Version | 1.0.0 |
-| Date | 11.11.2022 |
-| Objective | Measuring ocular physiology |
-| Last edit |  |
+* Checklist
+    1. OCT device
+    1. Distance holder for forehead
+    1. Desktop PC is connected
+    1. Desinfecting cloths
 
-# Start up
+* Start up system
+    1. Turn on Power under table and on the side of OCT
+    2. Start up Computer
+    3. Open Program OCT
+    4. Register new participant with ID
+    5. Open “Capture”
+    6. Start general followed by specific procedures
 
-1. Turn on Power under table and on the side of OCT
-2. Start up Computer
-3. Open Program OCT
-4. Register new participant with ID
-5. Open “Capture”
-6. Start general followed by specific procedures
+## General
 
-# General
+1. Desinfect the chin rest
+1. Invite participant to take a seat.
+1. Switch off light
+    * English
+        > EN: _I am now going to switch. Are you ready for the experiments or do you have any questions?_
+
+    * German
+        > _Ich werde jetzt das Licht ausschalten. Sind Sie bereit für die Messungen oder haben Sie noch fragen?_
 
 1. Press “Capture” in Software
 2. Adapt table
-3. Adapt chin rest
-4. Instruction:
-    1. “We will take X different images. For each image please focus either in the middle or at the green square.”
+3. Adapt chin rest (eyes on height of mark)
+4. Participant instruction (EN/DE):
+    * English
+        > EN: _We will take X different images. For each image please focus either in the middle or at the green square._
 
-# Procedure pre-experiment data collection
+    * German
+        > _Wir werden verschiedenen Bilder aufnehmen. Schauen Sie währenddessen bitte entweder in die Mitte oder auf das grüne Quadrat._
 
-## Corneal thickness  (pre-session)
+
+## Procedure pre-experiment data collection
+
+### Corneal thickness  (pre-session)
 
 1. Setup
     1. First put distance holder to forehead
@@ -49,7 +64,7 @@
         1. Horizontal line AND vertical line (light relex) should be in yellow square
 3. Press button to take image
 
-## Fundus photography (pre-session)
+### Fundus photography (pre-session)
 
 1. Setup
     1. No distance holder
@@ -61,9 +76,10 @@
 3. Move into the pupil until you see the fundus
 4. Press button to take image
 
-# Procedure during experiment
 
-## Macula image
+## Procedure during experiment
+
+### Macula image
 
 1. Setup
     1. No distance holder
@@ -87,7 +103,7 @@
     2. Adjust with wheel on right side further
     3. De-select OCT-LTF (ged rid of overlay)
 
-## Optic disc image
+### Optic disc image
 
 1. Setup
     1. No distance holder
@@ -108,7 +124,7 @@
 4. Image quality control (QC)
     1. Excavation must be down, otherwise you were too far in
 
-## Corneal thickness
+### Corneal thickness
 
 1. Setup
     1. First put distance holder to forehead
@@ -121,7 +137,11 @@
         1. Horizontal line AND vertical line (light relex) should be in yellow square
 3. Press button to take image
 
-# Shut down
+
+## Data Saving
+
+
+## Shut down
 
 1. Shut down OCT and PC
 2. Clean chin rest

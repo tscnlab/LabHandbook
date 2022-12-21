@@ -23,10 +23,10 @@ _Describe how to start up devices_
 
 * Checklist for materials
     1. Device model & serial number
-    3. Accessories
-    4. Parts
-    5. Software with version number
-    6. etc.
+    1. Accessories
+    1. Parts
+    1. Software with version number
+    1. etc.
 * Start up system
     1. Turn on power strip 
     1. etc.
@@ -57,16 +57,16 @@ _Procedures general to all experiments_
 
 _Procedure for specific Experiments. Must not be project specific but experimet specific. Any project specific variation need to be linked to another section._
 
-### Example Experiment A
+### Measurement A
 
 _List variations with links first._
 
 | Description | Link to variation                                    |
 |-------------|------------------------------------------------------|
-| Project A   | [Project A experiment A](#experiment-a-in-project-x) |
-| Project B   | [Project B experiment A](#experiment-b-in-project-x) |
+| Project A   | [Project A measurement A](#measurement-a-in-project-x) |
+| Project B   | [Project B measurement A](#measurement-b-in-project-x) |
 
-_Describe general of the experiment in detail. For instructions, please provide english and german versions, with help of [deepl.com/de/](deepl.com/de/) or a collegue's._
+_Describe general of an experiment A in detail. For instructions, please provide english and german versions, with help of [deepl.com/de/](deepl.com/de/) or a collegue's._
 
 1. Do X.
 1. Participant instruction (EN/DE): 
@@ -79,9 +79,9 @@ _Describe general of the experiment in detail. For instructions, please provide 
 
 1. Do Y.
 
-### Example Experiment B
+### Measurement B
 
-_Same structure as Example Experiment A._
+_Same structure as example measurement A._
 
 
 ## Data Saving
@@ -96,6 +96,11 @@ _Describe here how to save data. Can be multiple sections, e.g. "Export Data" an
     * _How to store data in designated storage space._
     1. etc.
 
+| Description | Link to variation                                    |
+|-------------|------------------------------------------------------|
+| Project A   | [Project A storage transfer](#storage-transfer-in-project-x) |
+| Project B   | [Project B storage transfer](#storage-transfer-b-in-project-x) |
+
 
 ## Shut down
 
@@ -103,6 +108,11 @@ _Describe here how to end experiment and shut down system_
 
 ___
 
-### Experiment A in Project X
+## Project specific measurements
 
-Variation of _Experiment A. Example experiment A_ is described in _[Example Experiment A](#example-experiment-a)_
+### Measurement A in Project X
+
+Variation of _Measurement A. Example measurement A_ is described in _[Example Measurement A](#example-measurement-a)_
+
+
+## Storage transfer in Project X
