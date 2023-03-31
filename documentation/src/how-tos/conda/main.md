@@ -20,16 +20,16 @@ Notes: can be installed locally
 - Follow instructions at [Anaconda.com](https://www.anaconda.com/products/distribution)
 - Once you started the anaconda.exe, tick the “Add anaconda to my PATH environment variable”.
 
-![Untitled](img_how-to-conda/description_1.png)
+![Untitled](img/description_1.png)
 
-[conda-cheatsheet.pdf](img_how-to-conda/conda-cheatsheet.pdf)
+[conda-cheatsheet.pdf](img/conda-cheatsheet.pdf)
 
 ## Conda Set-up in VSCode
 
 - Create a file under your working folder in VS Code (to do this, see: [Visual Studio Code](https://www.notion.so/Visual-Studio-Code-d2b91b39d10a48eba1b8cdb2a3ace365) How-to)
 - Open a new Terminal and select ***cmd*** on the RHS (not ***********powershell!***********)
     
-    ![**Important note : if you are on mac, you should use zsh since cmd is windows specific**](img_how-to-conda/description_2.png)
+    ![**Important note : if you are on mac, you should use zsh since cmd is windows specific**](img/description_2.png)
     
     **Important note : if you are on mac, you should use zsh since cmd is windows specific**
     
@@ -59,15 +59,15 @@ conda activate blub
 
 - Before starting your project, you also want to select your interpreter at the bottom right of your terminal - we want to change from Python (version installed on your laptop) to the one you have in your conda environment
     
-    ![Untitled](img_how-to-conda/description_3.png)
+    ![Untitled](img/description_3.png)
     
 - By clicking on 3.11.2 64-bit etc, this window will pop up:
     
-    ![Untitled](img_how-to-conda/description_4.png)
+    ![Untitled](img/description_4.png)
     
 - We want to select the conda env that you are using
     
-    ![If you did it right, you should now see the name of your conda environment ](img_how-to-conda/description_5.png)
+    ![If you did it right, you should now see the name of your conda environment ](img/description_5.png)
     
     If you did it right, you should now see the name of your conda environment 
     
@@ -91,3 +91,10 @@ N.B.: It is recommended, when possible, to use conda (see table below) to instal
 ### Lab-specific packages
 
 (install only in conda environment of the appropriate project !!)
+
+- PyActigraphy
+    - Link to installation [blablub]()
+    - Package manager: pip
+    - Procedure
+        1. 
+        2. 

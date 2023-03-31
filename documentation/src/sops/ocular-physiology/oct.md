@@ -33,7 +33,7 @@
 1. Invite participant to take a seat.
 1. Switch off light
     * English
-        > EN: _I am now going to switch. Are you ready for the experiments or do you have any questions?_
+        > _I am now going to switch. Are you ready for the experiments or do you have any questions?_
 
     * German
         > _Ich werde jetzt das Licht ausschalten. Sind Sie bereit für die Messungen oder haben Sie noch fragen?_
@@ -43,7 +43,7 @@
 3. Adapt chin rest (eyes on height of mark)
 4. Participant instruction (EN/DE):
     * English
-        > EN: _We will take X different images. For each image please focus either in the middle or at the green square._
+        > _We will take X different images. For each image please focus either in the middle or at the green square._
 
     * German
         > _Wir werden verschiedenen Bilder aufnehmen. Schauen Sie währenddessen bitte entweder in die Mitte oder auf das grüne Quadrat._
