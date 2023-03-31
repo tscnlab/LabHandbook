@@ -93,8 +93,20 @@ N.B.: It is recommended, when possible, to use conda (see table below) to instal
 (install only in conda environment of the appropriate project !!)
 
 - PyActigraphy
-    - Link to installation [blablub]()
+    - Link to installation [here](https://pypi.org/project/pyActigraphy/)
     - Package manager: pip
     - Procedure
-        1. 
-        2. 
+        1. PyActigraphy installition has to go through pip 
+        2. Problem is: installing pyActigraphy through pip will automatically install many packages which are better to be installed by conda 
+        3. Please install the following packages through conda *before* you install PyActigraphy
+            - texttable, pytz, lml, tenacity, pyparsing, pyexcel-io, pillow, numpy, lxml, llvmlite, kiwisolver, joblib, future, fonttools, et-xmlfile, cycler, chardet, asteval, uncertainties, scipy, pyexcel-ezodf, pyexcel, plotly, patsy, pandas, openpyxl, numba, contourpy, stochastic, statsmodels, pyexcel-xlsx, pyexcel-ods3, matplotlib, lmfit, spm1d
+            - You can to this in one go:
+             ```python
+            conda install -c conda-forge package1 package2 package3
+            ``` 
+            separated by a single space
+
+        4. Finally, we can download PyActigraphy: 
+        ```
+        pip3 install pyActigraphy
+        ```
