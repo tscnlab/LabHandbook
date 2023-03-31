@@ -11,7 +11,7 @@
 | Date         | 11.11.2022                                                      |
 
 
-## Start up
+# Start up
 
 * Checklist
     1. OCT device
@@ -27,31 +27,27 @@
     5. Open “Capture”
     6. Start general followed by specific procedures
 
-## General
+# General
 
 1. Desinfect the chin rest
 1. Invite participant to take a seat.
 1. Switch off light
-    * English
-        > _I am now going to switch. Are you ready for the experiments or do you have any questions?_
+    > _I am now going to switch. Are you ready for the experiments or do you have any questions?_
 
-    * German
-        > _Ich werde jetzt das Licht ausschalten. Sind Sie bereit für die Messungen oder haben Sie noch fragen?_
+    > _Ich werde jetzt das Licht ausschalten. Sind Sie bereit für die Messungen oder haben Sie noch fragen?_
 
 1. Press “Capture” in Software
 2. Adapt table
 3. Adapt chin rest (eyes on height of mark)
 4. Participant instruction (EN/DE):
-    * English
-        > _We will take X different images. For each image please focus either in the middle or at the green square._
+    > _We will take X different images. For each image please focus either in the middle or at the green square._
 
-    * German
-        > _Wir werden verschiedenen Bilder aufnehmen. Schauen Sie währenddessen bitte entweder in die Mitte oder auf das grüne Quadrat._
+    > _Wir werden verschiedenen Bilder aufnehmen. Schauen Sie währenddessen bitte entweder in die Mitte oder auf das grüne Quadrat._
 
 
-## Procedure pre-experiment data collection
+# Procedure pre-experiment data collection
 
-### Corneal thickness  (pre-session)
+## Corneal thickness  (pre-session)
 
 1. Setup
     1. First put distance holder to forehead
@@ -64,7 +60,7 @@
         1. Horizontal line AND vertical line (light relex) should be in yellow square
 3. Press button to take image
 
-### Fundus photography (pre-session)
+## Fundus photography (pre-session)
 
 1. Setup
     1. No distance holder
@@ -77,9 +73,9 @@
 4. Press button to take image
 
 
-## Procedure during experiment
+# Procedure during experiment
 
-### Macula image
+## Macula image
 
 1. Setup
     1. No distance holder
@@ -103,7 +99,7 @@
     2. Adjust with wheel on right side further
     3. De-select OCT-LTF (ged rid of overlay)
 
-### Optic disc image
+## Optic disc image
 
 1. Setup
     1. No distance holder
@@ -124,7 +120,7 @@
 4. Image quality control (QC)
     1. Excavation must be down, otherwise you were too far in
 
-### Corneal thickness
+## Corneal thickness
 
 1. Setup
     1. First put distance holder to forehead
@@ -138,10 +134,87 @@
 3. Press button to take image
 
 
-## Data Saving
+# Data Saving
+## Requirements
+
+- OCT Data Collection Software
+    - can be found here:
+        
+        [HiDrive.zip](img/HiDrive.zip)
+        
+    - To download, unzip files
+    - Go to “HiDrive” > “OCTDataCollectorInstaller”…
+    - Install software on windows by clicking “OCTDatacollectorInstaller.msi”
+    - The programm will be linked on the desktop
+- Manual:
+    
+    [OCTDataCollector Instruction.docx](img/OCTDataCollector_Instruction.docx)
+    
+
+## 1. Save DICOM and PDF output
+
+1. In the 3DOCT GUI, click on the participant and select the each of the three different measurement output (Macula, Disc, Anterior)
+2. For each of the measurement….
+    1. Click on “View” in the side pane
+        1. On the menu bar go to “Export” > “Export DCM file”, save file as specified.
+            
+            ![Untitled](img/Untitled.png)
+            
+        2. Click on “Report” on the side pane and the “Export” button, save file as specified
+            
+            ![Untitled](img/Untitled1.png)
+            
+
+## 2. Save CSV file with OCT data
+
+1. Open the the OCT Data Collector program
+    
+    ![Untitled](img/Untitled2.png)
+    
+2. As Data folder select: `D:\3DOCT\data` 
+3. Press “Search” → in folder the .fda files are stored. Die FDA files contain all relevant information.
+4. Follow the instructions given by the following Manuel (download docx from above) and consider:
+    1. Reference data:
+        1. Select: `D:\3DOCT\data` in which the .fda files are stored. Die FDA files contain all relevant information.
+        2. Select MACULA, DISC and EXTERNAL (for cornea) files of the participant so that they appear in the table
+    2. Export File
+        1. Save data in the following folder `C:\Users\mspitschan-admin\Documents\oct_data`
+        2. As prefix specify date and time in the following format `[YYYYMMDD]_[HHMMSS]_[ID]`
+
+### Check complete files
+
+1. Check if CSV files have been saved
+    1. 4 .csv files must have been create with the following format:
+        1. `[ID]_[YYYYMMDD]_[HHMMSS]_3D_DISC.csv`
+        2. `[ID]_[YYYYMMDD]_[HHMMSS]_3D_MACULA(6x6GRUD).csv`
+        3. `[ID]_[YYYYMMDD]_[HHMMSS]_3D_MACULA(ETDRS).csv`
+        4. `[ID]_[YYYYMMDD]_[HHMMSS]_3D_ANTERIOR.csv`
+    2. Prefix of the date must be 
+2. Check if DICOM and PDF have been saved
+    1. 8 .dcm files and 6 .pdf files in three different folder, one for each of the measurements
+        1. cornea
+            1. `[ID]_[YYYYMMDD]_[HHMMSS]`_OP_R_001.dcm
+            2. `[ID]_[YYYYMMDD]_[HHMMSS]`_OCTReport_R_001.pdf
+            3. `[ID]_[YYYYMMDD]_[HHMMSS]`_OP_L_001.dcm
+            4. `[ID]_[YYYYMMDD]_[HHMMSS]`_OCTReport_L_001.pdf
+        2. macula
+            1. `[ID]_[YYYYMMDD]_[HHMMSS]`_OCTReport_R_001.pdf
+            2. `[ID]_[YYYYMMDD]_[HHMMSS]`_OPT_R_001.dcm
+            3. `[ID]_[YYYYMMDD]_[HHMMSS]`_OP_R_001.dcm
+            4. `[ID]_[YYYYMMDD]_[HHMMSS]`_OCTReport_L_001.pdf
+            5. `[ID]_[YYYYMMDD]_[HHMMSS]`_OPT_L_001.dcm
+            6. `[ID]_[YYYYMMDD]_[HHMMSS]`_OP_L_001.dcm
+        3. disc
+            1. `[ID]_[YYYYMMDD]_[HHMMSS]`_OP_R_001.dcm
+            2. `[ID]_[YYYYMMDD]_[HHMMSS]`_OCTReport_R_001.pdf
+            3. `[ID]_[YYYYMMDD]_[HHMMSS]`_OP_L_001.dcm
+            4. `[ID]_[YYYYMMDD]_[HHMMSS]`_OCTReport_L_001.pdf
+
+## 3. Transfer to Server
+... 
 
 
-## Shut down
+# Shut down
 
 1. Shut down OCT and PC
 2. Clean chin rest
