@@ -54,10 +54,7 @@ In our project, we strive to measure consecutively in intervalls without having 
 Export/Access Data
 1. Open the slide on the side of the GoPro Hero 10 and take out the microSD card
 2. If your storage device does not have a slot for a microSD card, use a SD-to-microSD-adapter to connect the microSD carf to your device
-3. Export the preferred data. The videos are saved as .mp4-files and photos as .jpg-files. Besides these, .THM-, .GPR- and .LVM-files are also exportable
-3.1. THM-files: Scaled down image format for thumbnails (160x120 pixels)
-3.2. GPR-files: Compressed image-file that contains more data, allowing for improved picture quality
-3.3. LRV-file: Low-quality video file, that is used for showing previews on the mobile App "Quik".
+3. Export the preferred data. The videos are saved as .mp4-files and photos as .jpg-files. Besides these, .THM-, .GPR- and .LVM-files are also exportable. First, THM-files are a scaled down image format for thumbnails (160x120 pixels). Second, GPR-files are compressed image-files that contain more data, allowing for improved picture quality. Third, an LRV-file is a low-quality video file, that is used for showing previews on the mobile App "Quik".
 4. Save and rename the data as you wish
 5. Alternatively: Delete copied data to free up storage on the microSD-card
 
