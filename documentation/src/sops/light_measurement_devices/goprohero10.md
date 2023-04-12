@@ -17,15 +17,15 @@
 The device can be started by pressing a large buttion on the top of the device. If your cellphone has been previously connected to the GoPro Hero 10 you can also start it via bluetooth using the "Quik" App. 
 
 Checklist for materials
-    1. GoPro Hero 10
-    2. Battery
-    3. microSD card
-    4. Charger
-    5. Quik App (Downloadable on Android and iOS app stores) 
+1. GoPro Hero 10
+2. Battery
+3. microSD card
+4. Charger
+5. Quik App (Downloadable on Android and iOS app stores) 
 Start up system (by hand)
-    1. Press power button (marked red) on the top of the device 
+1. Press power button (marked red) on the top of the device 
 Start up system (remotely)
-    1. Start the Quik App on your mobile device (Press "continue as guest" and then the icon "GoPro". If your GoPro     has been connected previously, it will find the device and give you the option for connecting)
+1. Start the Quik App on your mobile device (Press "continue as guest" and then the icon "GoPro". If your GoPro     has been connected previously, it will find the device and give you the option for connecting)
    
 
 
