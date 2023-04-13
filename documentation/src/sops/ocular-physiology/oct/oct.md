@@ -134,8 +134,13 @@
 3. Press button to take image
 
 
-# Data Saving
-## Requirements
+# Data Saving at OCT
+
+Routine to save data.
+
+- [ ]  Transfer to Server
+
+## Requirements (may be skipped)
 
 - OCT Data Collection Software
     - can be found here:
@@ -146,6 +151,9 @@
     - Go to “HiDrive” > “OCTDataCollectorInstaller”…
     - Install software on windows by clicking “OCTDatacollectorInstaller.msi”
     - The programm will be linked on the desktop
+
+## 0. Have a look at the Manual
+
 - Manual:
     
     [OCTDataCollector Instruction.docx](img/OCTDataCollector_Instruction.docx)
@@ -153,7 +161,9 @@
 
 ## 1. Save DICOM and PDF output
 
-1. In the 3DOCT GUI, click on the participant and select the each of the three different measurement output (Macula, Disc, Anterior)
+**The OCT machine has to be on in order to access the software on the computer** 
+
+1. In the **3DOCT GUI**, click on the participant and select one of the three different measurement output (Macula, Disc, Anterior)
 2. For each of the measurement….
     1. Click on “View” in the side pane
         1. On the menu bar go to “Export” > “Export DCM file”, save file as specified.
@@ -164,6 +174,33 @@
             
             ![Untitled](img/Untitled1.png)
             
+    
+    You can chose the folder when saving files, please be careful to export the files in the right folder. 
+    
+    When saving files, please respect this template : 
+    C:\test_oct
+     - **macula**
+    	 - *data*
+    			- .csv files
+    	 - *dicom*
+    			- .dcm files
+    	 - *img*
+    			- .pdf files
+     - **disc**
+    	 - *data*
+    			- .csv files
+    	 - *dicom*
+    			- .dcm files
+    	 - *img*
+    			- .pdf files
+     - **cornea**
+    	 - *data*
+    			- .csv files
+    	 - *dicom*
+    			- .dcm files
+    	 - *img*
+    			- .pdf files
+    
 
 ## 2. Save CSV file with OCT data
 
@@ -189,26 +226,44 @@
         2. `[ID]_[YYYYMMDD]_[HHMMSS]_3D_MACULA(6x6GRUD).csv`
         3. `[ID]_[YYYYMMDD]_[HHMMSS]_3D_MACULA(ETDRS).csv`
         4. `[ID]_[YYYYMMDD]_[HHMMSS]_3D_ANTERIOR.csv`
-    2. Prefix of the date must be 
+    
 2. Check if DICOM and PDF have been saved
-    1. 8 .dcm files and 6 .pdf files in three different folder, one for each of the measurements
+    1. 8 .dcm files and 6 .pdf files in different folders, one for each of the measurements (please respect the following template when saving files) :
         1. cornea
-            1. `[ID]_[YYYYMMDD]_[HHMMSS]`_OP_R_001.dcm
-            2. `[ID]_[YYYYMMDD]_[HHMMSS]`_OCTReport_R_001.pdf
-            3. `[ID]_[YYYYMMDD]_[HHMMSS]`_OP_L_001.dcm
-            4. `[ID]_[YYYYMMDD]_[HHMMSS]`_OCTReport_L_001.pdf
+            1. data
+                1. `oct__3D_ANTERIOR.csv`
+            2. dicoms
+                1. `[ID]_[YYYYMMDD]_[HHMMSS]`_OP_R_001.dcm
+                2. `[ID]_[YYYYMMDD]_[HHMMSS]`_OP_L_001.dcm
+                3. …
+            3. img
+                1. `[ID]_[YYYYMMDD]_[HHMMSS]`_OCTReport_R_001.pdf
+                2. `[ID]_[YYYYMMDD]_[HHMMSS]`_OCTReport_L_001.pdf
+                3. …
         2. macula
-            1. `[ID]_[YYYYMMDD]_[HHMMSS]`_OCTReport_R_001.pdf
-            2. `[ID]_[YYYYMMDD]_[HHMMSS]`_OPT_R_001.dcm
-            3. `[ID]_[YYYYMMDD]_[HHMMSS]`_OP_R_001.dcm
-            4. `[ID]_[YYYYMMDD]_[HHMMSS]`_OCTReport_L_001.pdf
-            5. `[ID]_[YYYYMMDD]_[HHMMSS]`_OPT_L_001.dcm
-            6. `[ID]_[YYYYMMDD]_[HHMMSS]`_OP_L_001.dcm
+            1. data
+                1. `.csv`
+            2. dicoms
+                1. `[ID]_[YYYYMMDD]_[HHMMSS]`_OP_R_001.dcm
+                2. `[ID]_[YYYYMMDD]_[HHMMSS]`_OP_L_001.dcm
+                3. `[ID]_[YYYYMMDD]_[HHMMSS]`_OPT_R_001.dcm
+                4. `[ID]_[YYYYMMDD]_[HHMMSS]`_OPT_L_001.dcm
+                5. …
+            3. img
+                1. `[ID]_[YYYYMMDD]_[HHMMSS]`_OCTReport_R_001.pdf
+                2. `[ID]_[YYYYMMDD]_[HHMMSS]`_OCTReport_L_001.pdf
+                3. …
         3. disc
-            1. `[ID]_[YYYYMMDD]_[HHMMSS]`_OP_R_001.dcm
-            2. `[ID]_[YYYYMMDD]_[HHMMSS]`_OCTReport_R_001.pdf
-            3. `[ID]_[YYYYMMDD]_[HHMMSS]`_OP_L_001.dcm
-            4. `[ID]_[YYYYMMDD]_[HHMMSS]`_OCTReport_L_001.pdf
+            1. data
+                1. `.csv`
+            2. dicoms
+                1. `[ID]_[YYYYMMDD]_[HHMMSS]`_OP_R_001.dcm
+                2. `[ID]_[YYYYMMDD]_[HHMMSS]`_OP_L_001.dcm
+                3. …
+            3. img
+                1. `[ID]_[YYYYMMDD]_[HHMMSS]`_OCTReport_R_001.pdf
+                2. `[ID]_[YYYYMMDD]_[HHMMSS]`_OCTReport_L_001.pdf
+                3. …
 
 ## 3. Transfer to Server
 ... 
