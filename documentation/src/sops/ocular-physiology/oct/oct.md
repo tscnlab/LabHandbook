@@ -222,10 +222,10 @@ Routine to save data.
 
 1. Check if CSV files have been saved
     1. 4 .csv files must have been create with the following format:
-        1. `[ID]_[YYYYMMDD]_[HHMMSS]_3D_DISC.csv`
-        2. `[ID]_[YYYYMMDD]_[HHMMSS]_3D_MACULA(6x6GRUD).csv`
-        3. `[ID]_[YYYYMMDD]_[HHMMSS]_3D_MACULA(ETDRS).csv`
-        4. `[ID]_[YYYYMMDD]_[HHMMSS]_3D_ANTERIOR.csv`
+        1. `[YYYYMMDD]_[HHMMSS]_3D_DISC.csv`
+        2. `[YYYYMMDD]_[HHMMSS]_3D_MACULA(6x6GRUD).csv`
+        3. `[YYYYMMDD]_[HHMMSS]_3D_MACULA(ETDRS).csv`
+        4. `[YYYYMMDD]_[HHMMSS]_3D_ANTERIOR.csv`
     
 2. Check if DICOM and PDF have been saved
     1. 8 .dcm files and 6 .pdf files in different folders, one for each of the measurements (please respect the following template when saving files) :
