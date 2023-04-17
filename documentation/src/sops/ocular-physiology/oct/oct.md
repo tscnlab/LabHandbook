@@ -276,10 +276,4 @@ Routine to save data.
 3. Put on cap on the lens of the OCT
 4. Put on cover for dusk protection
 5. Turn off energy device under the table
-1. Turn on Power under table and on the side of OCT
-2. Start up Computer
-3. Open Program OCT
-4. Register new participant with ID
-5. Open "Capture"
-6. Start general followed by specific procedures
 
