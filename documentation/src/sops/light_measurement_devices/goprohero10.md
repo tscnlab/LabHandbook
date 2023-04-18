@@ -1,4 +1,3 @@
-
 # Standard Operating Procedure for GoPro Hero 10
 
 | Device       | GoPro, Hero 10                                            |
@@ -7,27 +6,27 @@
 | Owner        | [Alexander Hahn](mailto:alexander.hahn@tuebingen.mpg.de)  |
 | Reviewer     | [Hannah Sophie Heinrichs](mailto:hannah.heinrichs@tuebingen.mpg.de) |
 | Approver     | [Hannah Sophie Heinrichs](mailto:hannah.heinrichs@tuebingen.mpg.de) |
-| Contributors | [Max Dobberkau](mailto:max.dobberkau@tuebingen.mpg.de) |
-| Version      | _Start with 1.0.0_                                        |
-| Last edit    | [Firstname Lastname](mailto:firstname.lastname@domain.de) |
-| Date         | 05.04.2023                                                |
+| Contributors | [Max Dobberkau](mailto:max.dobberkau@tuebingen.mpg.de)    |
+| Version      | _Start with 1.0.1_                                        |
+| Last edit    | [Alexander Hahn](mailto:alexander.hahn@tuebingen.mpg.de)  |
+| Date         | 18.04.2023                                                |
 
 ## Start up
 
 The device can be started by pressing a large buttion on the top of the device. If your cellphone has been previously connected to the GoPro Hero 10 you can also start it via bluetooth using the "Quik" App. 
 
 Checklist for materials
-1. GoPro Hero 10
-2. Battery
-3. microSD card
-4. Charger
-5. Quik App (Downloadable on Android and iOS app stores) 
+   1. GoPro Hero 10
+   1. Battery
+   1. microSD card
+   1. Charger
+   1. Quik App (Downloadable on Android and iOS app stores) 
 
 Start up system (by hand)
-1. Press power button (marked red) on the top of the device 
+   1. Press power button on the left side of the device 
 
 Start up system (remotely)
-1. Start the Quik App on your mobile device (Press "continue as guest" and then the icon "GoPro". If your GoPro     has been connected previously, it will find the device and give you the option for connecting)
+   1. Start the Quik App on your mobile device (Press "continue as guest" and then the icon "GoPro". If your GoPro has been connected previously, it will find the device and give you the option for connecting)
    
 
 
@@ -40,11 +39,11 @@ Before working with the GoPro, make sure that the battery is fully charged befor
 
 In our project, we strive to measure consecutively in intervalls without having to moving the the GoPro Hero 10. The prefered way of operating in this way is remotely via the Quik app. Turing the GoPro off in between measurements is also adviced, since the battery depleads very fast. 
 
-1. Position the GoPro at the desired location
-2. Adjust the GoPro in its mounting. This done with two hinges at the bottom of the GoPro, which can be extended and be put in the mounting. A screw (M5) is then used to fasten the hinges in the mounting, thus fixating the GoPro.
-3. Turn on the GoPro via the Quik App
-4. At the preferred time, take a GoPro picture and/or a GoPro video via the App
-5. Turn off the GoPro at the preferred time, using the App
+   1. Position the GoPro at the desired location
+   1. Adjust the GoPro in its mounting. This done with two hinges at the bottom of the GoPro, which can be extended and be put in the mounting. A screw (M5) is then used to fasten the hinges in the mounting, thus fixating the GoPro.
+   1. Turn on the GoPro via the Quik App
+   1. At the preferred time, take a GoPro picture and/or a GoPro video via the App
+   1. Turn off the GoPro at the preferred time, using the App
 
 
 
@@ -52,14 +51,17 @@ In our project, we strive to measure consecutively in intervalls without having 
 
 
 Export/Access Data
-1. Open the slide on the side of the GoPro Hero 10 and take out the microSD card
-2. If your storage device does not have a slot for a microSD card, use a SD-to-microSD-adapter to connect the microSD carf to your device
-3. Export the preferred data. The videos are saved as .mp4-files and photos as .jpg-files. Besides these, .THM-, .GPR- and .LVM-files are also exportable. First, THM-files are a scaled down image format for thumbnails (160x120 pixels). Second, GPR-files are compressed image-files that contain more data, allowing for improved picture quality. Third, an LRV-file is a low-quality video file, that is used for showing previews on the mobile App "Quik".
-4. Save and rename the data as you wish
-5. Alternatively: Delete copied data to free up storage on the microSD-card
+   1. Open the slide on the side of the GoPro Hero 10 and take out the microSD card
+   1. If your storage device does not have a slot for a microSD card, use a SD-to-microSD-adapter to connect the microSD carf to your device
+   1. Export the preferred data. The videos are saved as .mp4-files and photos as .jpg-files. Besides these, .THM-, .GPR- and .LVM-files are also exportable. 
+		1. THM-files are a scaled down image format for thumbnails (160x120 pixels). 
+		2. GPR-files are compressed image-files that contain more data, allowing for improved picture quality. 
+		3. LRV-file is a low-quality video file, that is used for showing previews on the mobile App "Quik".
+   1. Save and rename the data as you wish
+   1. Alternatively: Delete copied data to free up storage on the microSD-card
 
 
 ## Shut down
 
-The GoPro Hero 10 can be turned off via the Quik App (On/Off button) or the physical red button on the device. Upon turning off, the camera will produce five high pitched beeping-noises.
+The GoPro Hero 10 can be turned off via the Quik App (On/Off button) or the physical black button on left side of the device. Upon turning off, the camera will produce five high pitched beeping-noises.
 
