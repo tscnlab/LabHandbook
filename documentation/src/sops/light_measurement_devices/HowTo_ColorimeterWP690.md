@@ -1,5 +1,7 @@
 # Standard Operating Procedure for Westboro Photonics imaging colorimeter WP690
 
+This SOP provides an overview over project specific measurements with the device Jeti Spectoradiometer 1511 for the project ReWoCap. General handling of the device is decribed in another SOP.
+
 | Device       | Westboro Photonics, WP690                                              |
 |--------------|-----------------------------------------------------------|
 | Objective    | Describe the measurements with WP690             |
