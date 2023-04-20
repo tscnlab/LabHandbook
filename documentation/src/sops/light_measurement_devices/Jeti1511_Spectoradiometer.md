@@ -47,14 +47,14 @@ Start up system
 ## Data Saving
 
 Export/Access Data
-    _How to access generated data and how to export data from the software._
+    
    1. Click on the "#1" (it´s then marked blue) and afterwars click "to Table" underneath the white panel.
    2. Click "File" and then "Export table as Excel File"
-   3. Choose the path for saving the file: Hard-Drive &rarr; rewocap &rarr; data &rarr; raw &rarr; ID (e.g., 1001_20230208) with the name jeti1511_year:month:dayTmeasurementtime.pmm (e.g. wp690_20230208T0930.pmm)
+   3. Choose the path for saving the file: Hard-Drive &rarr; rewocap &rarr; data &rarr; raw &rarr; ID (e.g., 1001_20230208) with the name jeti1511_year:month:dayTmeasurementtime (e.g. jeti1511_20230208T0930)
    4. After saving the saving the table, you delete the measurement by left-clicking on the "#1" and right-clicking "Delete" in the openingn window. 
 
 ## Shut down
 
-   1. Close the Jeti software after everything has been saved.
-   2. You can now detache the conncetion cable from the laptop and from the Jeti device.
+   1. Close the Jeti software after making sure everything has been saved.
+   2. You can now detache the conncetion cable from the laptop and from the Jeti device, which turns off the device.
 
