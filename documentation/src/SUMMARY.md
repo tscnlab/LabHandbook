@@ -8,6 +8,10 @@
     - [Template structure](./sops/template.md)
     - [Ocular physiology measurements](./sops/ocular-physiology/main.md)
         - [OCT](./sops/ocular-physiology/oct/oct.md)
+    - [Light measurements](./sops/light-measurement-devices/main.md)
+        - [Go Pro Hero10](./sops/light-measurement-devices/gopro-hero10.md)
+        - [Colorimeter WP 690](./sops/light-measurement-devices/colorimeter-wp690.md)
+
 
 
 -  [How To's](./how-tos/main.md)
