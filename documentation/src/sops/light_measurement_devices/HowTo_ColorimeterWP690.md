@@ -13,7 +13,7 @@
 ## Start up
 
 
-#####Checklist for materials
+Checklist for materials
    1. Westboro Photonics Imaging Colorimeter WP690 SN: U006957
    2. Power cabel for power socket (if a power socket is available at the measurement scene)
    3. Power cabel for battery pack outlet (if no power socket is available at the measurement scene)
@@ -23,7 +23,7 @@
    7. Hard-drive
     
     
-#####Start up system
+Start up system
    1. Plugging in the power cable in the thread-outlet on the backside of the device, will automatically start the device. The power cabel for the power socket requires the thread to be thightend. To do this, push the cabel carfully in the socket and tighten the thread for one rotation. Make sure that you hear three beeps from the device and that the diode on the back of the device is green (and not blinking)
    2. Connect the grey USB-cable directly to the PC and not the USB-hub-device
    3. Open the Photometrica software on the Laptop and check whether the device is properly connected via the preview button. The preview button is the green play button in the lower left panel of the workspace. You can test this out with any of the five measurement options (i.e., S-, M-, and L-cone, rhodopsin, and ipRGC)
@@ -49,7 +49,7 @@
 
 ## Data Saving
 
-#####Export Data
+Export Data
 _Two types of data need to be extracted. First, the csv-file. Second, the pmm-file._ 
 
    1. Make sure that the hard-drive is connected to the laptop via USB.
