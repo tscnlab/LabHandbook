@@ -14,15 +14,15 @@ This SOP provides an overview over project specific measurements with the device
 ## Start up
 
 Checklist for materials
-    1. Klein Colorimeter, U006957
-    1. USB-connector-cable
-    1. Laptop
-    1. USB-hub
-    1. Hard-drive
-    1. Klein Software (Chromasurf)
+   1. Klein Colorimeter, SN: U006957
+   1. USB-connector-cable
+   1. Laptop
+   1. USB-hub
+   1. Hard-drive
+   1. Klein Software (Chromasurf)
     
 Start up system
-    1. Connect the cabel to the Laptop via USB. The device starts up automatically.
+   1. Connect the cabel to the Laptop via USB. The device starts up automatically.
 
 
 ## Pre-Measurement procedure
@@ -32,11 +32,13 @@ Start up system
    2. Postion the light measurement devices on the rail so that the cabel of Klein is not squashed against the back of the black box
 
 ## Measurement procedure
+_Since this measurement usually takes the longest, you should start with this measurement first._
 
-   1. Open the software. If the conncetion between Klein and Laptop is established, click "Connection to" in the horizontal upper panel, to find out whether that the device is recognized by the software. .
-   2. Click "Tools" in the same upper panel and in the following "Logging tool".
-   3. In the newly opened window, two modulators controll the duration and sample rate of the measurement. Choose "60 sec." measurement duration and "fast" sampling rate.
-   4. Click the "start"-button in the right of the window to start the measurement
+   1. Open the software. If the conncetion between Klein and Laptop is established, click "Connection to" in the horizontal upper panel, to find out whether that the device is recognized by the software. If the connection does not work, click "Connect Colorimeter" and select "DEMO: K-10".
+   2. Should you want to reactivate the connection to the device from the offline mode, you can do so by pressing CLTR + I. In order for this to work successfully, the device must be connected to the software when first opening it.
+   3. Click "Tools" in the upper panel and in the following "Logging tool".
+   4. In the newly opened window, two modulators controll the duration and sample rate of the measurement. Choose "60 sec." measurement duration and "fast" sampling rate.
+   6. Click the "start"-button in the right of the window to start the measurement.
 
 
 
