@@ -31,15 +31,15 @@ Start up system
 ## Pre-measurement procedure
 
    1. General: Place the entire measurement setup in the desired position
-   2. If the Jeti is not included in the set-up yet: Pull up the aluminium handle at the bottom of the black box (if you face the box from the rear) and put the light measurement devices in the forward position. Take out the Klein by pulling on the metal handle, which loosens the Klein. Now you can put the Jeti in the lower brass mounting. Beforehand, make sure that the Jeti is orientated in the corrected direction (adaptable with the brass screw on the back of the device)
+   2. If the Jeti is not included in the set-up yet: Pull up the aluminium handle at the bottom left side of the black box (if you face the box from the rear) and put the light measurement devices in the forward position. Take out the Klein by pulling on the metal handle of its mounting, which loosens the Klein. Now you can put the Jeti in the lower brass mounting and reassemble the Klein. Beforehand, make sure that the Jeti is orientated in the corrected direction (adaptable with the brass screw on the back of the device)
    3. Take the lense cover of the Jeti and put the lense on. There is only one possible way to put it because of three spikes on the lense.
-   4. Before plugging in the power cable, attach the magnet of the cable on the metal plate behind the Jeti. This stabilizes the conncetion.
+   4. Before plugging in the power cable, attach the magnet of the cable on the small metal plate behind the Jeti. 
 
 
 
 ## Measurement procedure
 
-   1. Open the software. If the Jeti has power and the conncetion between Jeti and Laptop is established, a large green button "Measurement" is shown in the software window.
+   1. Open the software. If the Jeti has power and the conncetion between Jeti and Laptop is established, a large green button "Measurement" is shown in the software window. If the connection does not work, it can be helpful to disconnect and then reconnect the cabels from the USB-hub and/or the Jeti. Close the software before you disconnect and open it only after reconnecting.
    2. Press the large green button to start the measurement, which takes a few seconds, depending of the intensity of the illuminance.
    3. If the measurement was successful, a spectral diagramm of the lighting conditions is being shown and "#1" appears in the white panel on the middle of the righthand side.
 
