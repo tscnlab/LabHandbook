@@ -15,7 +15,7 @@ This SOP provides an overview over project specific measurements with the device
 ## Start up
 
 Checklist for materials
-   1. IntelRealsense D455 depth camera 231122300377
+   1. IntelRealsense D455 depth camera SN: 231122300377
    2. Screw for mounting
    4. Intel Realsense Software
    5. USB-hub
@@ -35,9 +35,9 @@ Start up system
 
 ## Measurement procedure
 
-   1. Open the Intel Realsense software
-   2. Click on the modulators next to RGB-camera and Stereo module in the upper left part of the software window
-   3. Set a timer for 15 seconds
+   1. Open the Intel Realsense software. The camera is recognized automatically. 
+   2. In the upper left panel, click on the modulators next to RGB-camera and Stereo module in the upper left part of the software window. Framerate and resolution stay at default setting.
+   3. Set a timer for 15 seconds (e.g. with your cellphone)
    3. Click record in the upper left part of the software window
    3. Stop the recording after 15 seconds
    3. Close the software and reopen shortly before the next measurement
@@ -48,7 +48,7 @@ Start up system
 Export/Access Data
     
    1. Data is saved automatically in "Documents". Rename it to inteld455_year:month:dayTmeasurementtime
-   2. Transfer the renamed data to Hard-Drive &rarr; rewocap &rarr; data &rarr; raw &rarr; ID (e.g., 1001_20230208)
+   2. Transfer the renamed file to Hard-Drive &rarr; rewocap &rarr; data &rarr; raw &rarr; ID (e.g., 1001_20230208)
    
 ## Shut down
    
