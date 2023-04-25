@@ -8,6 +8,8 @@
 
 - [Standard Operating Procedures](./sops/main.md)
     - [Template structure](./sops/template.md)
+    - [Actimetry](./sops/actimetry/main.md)
+        - [Acttrust](./sops/actimetry/acttrust/acttrust.md)
     - [Ocular physiology measurements](./sops/ocular-physiology/main.md)
         - [OCT](./sops/ocular-physiology/oct/oct.md)
     - [Light measurements](./sops/light-measurement-devices/main.md)
