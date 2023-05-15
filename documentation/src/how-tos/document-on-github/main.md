@@ -83,3 +83,41 @@ let’s say you want to add a file under *Templates/Documentation/src/how-to-con
 - Once the pull request is accepted, you will get a notification.
 
 # Please do not forget to sync your forked version of the repository after each pull request and before adding any changes.
+
+# Github vscode tutorial
+
+As you program on VSCode you might want to back it up on github
+
+- To do so simply open the tab on the left of VSCode  and click on “publish to GitHub”
+
+![Untitled](img/Untitled_9.png)
+
+- Then you can rename the repository as you want to and chose whether it’s a public or private repository :
+
+![Untitled](img/Untitled_10.png)
+
+- Simply follow the procedure with the pop-ups from github.
+
+Once you have selected which files you are about to push and commit to your private github repository, please head over to the .gitignore on the left-hand side and input the file formats to ignore
+
+These specific file formats depending on the coding language can be found here : https://github.com/github/gitignore
+
+- Once the ignored files are set, you can commit and push the files
+- This process will add the files in your repository on GitHub
+
+### Once this is done, you can commit new changes and preview them whenever you want it to
+
+- Before committing new changes, add a message in the ‘message’ area on top of “commit” on the left-hand side of the VSCode tab
+- If you don’t, a pop-up will show up, simply click “yes”
+
+![Untitled](img/Untitled_11.png)
+
+- Then state your message (1) and accept (2)
+
+![Untitled](img/Untitled_12.png)
+
+- The preview will be in red for the old version and green for the new updates
+
+![This will directly commit the changes from your local files to your designated github repository ](img/Untitled_13.png)
+
+This will directly commit the changes from your local files to your designated github repository
