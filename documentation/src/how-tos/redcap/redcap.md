@@ -71,3 +71,9 @@ This How To describes the standard workflow when working with RedCap in the lab 
     - Let another Lab member check the translations (you can tag someone in the slack channel “redcap”)
 - Gender-neutral language
     - Use “Gender Doppelpunkt” for gender-neutral languate, e.g. “der:die Versuchsleiter:in”
+
+## Save and export surveys as PDF
+
+- At "Multi-Language Management", set the Default Language to the one you want to export.
+- Go to "Designer", and in the Overview under "View PDF" click on the PDF button to export the survey in this specific language
+- Make sure to reset the Default Language to English under "Multi-Language Management"
