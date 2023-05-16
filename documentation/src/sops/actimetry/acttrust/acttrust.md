@@ -45,13 +45,13 @@ The most up to date version is v.1.0.24
 14. Now click “Start Trial” 
 15. Check at the bottom under “configurations” if the “desired” settings are similar to the “current” settings
     
-###*After disconnecting*
+### *After disconnecting*
     
 1. Note down in the Actimetry database that it was taken
 2. After the study, immediately connect the ActTrust so it stops recording
     
     
-**Data readout and download**
+## Data readout and download
     
 1. Place ActTrust device into the docking station and connect cable to laptop/computer
 2. Open ActStudio
@@ -76,7 +76,7 @@ The most up to date version is v.1.0.24
         
 10. Do NOT crop the data to valid periods in ActStudio by setting the initial and final times. Rather, this should be done with a separate file (start stop log file) to be loaded in pyActigraphy for example.
     
-    **Visual inspection of data**
+**Visual inspection of data**
     
 11. Click on “Calculate Analysis”. This will generate metrics based on the data. This only has to be done once and the analyses will be available under “Analysis”.
 12. Under “Analysis”, a lot of different data are depicted in line plots. For the initial visual inspection, it is sufficient to select “Activity”, “Sleeping”, “Resting”, “OffWrist” and “Light”.
@@ -86,6 +86,6 @@ The most up to date version is v.1.0.24
 13. Periods of “Awake” and “Sleep” will be scored by algorithm by ActStudio. You can change the type of algorithm in settings.
     
 
-##General notes
-- View data in ActStudio, either for visual inspection or as a check that the data are there. For quantitative analyses, we will pyActigraphy.
-- Decide in advance on how to instruct pariticpants concerning the event button
+## General notes
+- View data in ActStudio, either for visual inspection or as a check that the data are there. For quantitative analyses, we will use pyActigraphy in the lab.
+- Decide in advance on how to instruct pariticpants concerning the event button (use the button: yes/no; and for what: non-wear time, sleep onset and offset, ect).
