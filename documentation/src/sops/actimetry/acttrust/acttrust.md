@@ -45,13 +45,15 @@ The most up to date version is v.1.0.24
 14. Now click “Start Trial” 
 15. Check at the bottom under “configurations” if the “desired” settings are similar to the “current” settings
     
+
 ### After disconnecting
+
     
 1. Note down in the Actimetry database that it was taken
 2. After the study, immediately connect the ActTrust so it stops recording
     
     
-**Data readout and download**
+## Data readout and download
     
 1. Place ActTrust device into the docking station and connect cable to laptop/computer
 2. Open ActStudio
@@ -87,5 +89,7 @@ The most up to date version is v.1.0.24
     
 
 ## General notes
-- View data in ActStudio, either for visual inspection or as a check that the data are there. For quantitative analyses, we will pyActigraphy.
-- Decide in advance on how to instruct pariticpants concerning the event button
+
+- View data in ActStudio, either for visual inspection or as a check that the data are there. For quantitative analyses, we will use pyActigraphy in the lab.
+- Decide in advance on how to instruct pariticpants concerning the event button (use the button: yes/no; and for what: non-wear time, sleep onset and offset, ect).
+
