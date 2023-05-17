@@ -70,10 +70,38 @@ $ProjectID/
   
 ```
 
+#### `README.md`
+
+The file `README.md` contains information about the project, including the author.
+
 #### `ethics` folder
 
 The `ethics/` folder contains documentation about ethical approvals, including the full ethical application, approval letters and recruitment material. Any iterations of ethics should be included in this folder.
 
 #### `code/` folder
 
-The `code/` folder contains code used to run the experiment, analyse data, and other snippets of code to make the experiment reproducible. Depending on the project requirements, it is recommended to have separate GitHub repositories for different bits and pieces, e.g. separate out code to run the experiment from code to run the analysis. In any event, all code should be w
+The `code/` folder contains code used to run the experiment, analyse data, and other snippets of code to make the experiment reproducible. Depending on the project requirements, it is recommended to have separate GitHub repositories for different bits and pieces, e.g. separate out code to run the experiment from code to run the analysis. In any event, all code should be version-controlled on GitHUb.
+
+#### `data/` folder
+
+The `data/` folder contains all data collected in the project. This includes raw, processed and derived data. The `raw/` data folder is included to be organised by participants. Depending on the project needs, the folder structure of `derivatives` can be more loosely populated.
+
+#### `docs/` folder 
+
+The `docs/` folder contains documentation related to the project.
+
+#### `notebooks/` folder 
+
+The `notebooks/` folder contains computational notebooks related to the project, e.g. Jupyuter notebooks.
+
+#### `materials/` folder 
+
+The `materials/` folder contains questionnaires, SOPs and other materials to reproduce the data collectin effort.
+
+#### `output/` folder 
+
+The `output/` folder contains figures, tables and other data outputs related to the project.
+
+#### `reports/` folder
+
+The `reports/` folder contains any published outputs related to the project, including posters (in `posters/`), presentation decks (in `presentations/`) and manuscripts (`/manuscripts/`).
