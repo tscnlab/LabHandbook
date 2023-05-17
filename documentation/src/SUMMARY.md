@@ -2,6 +2,9 @@
 
 - [Introduction](./intro.md)
 
+- [Background](./background/main.md)
+	- [Mission Statement](https://raw.githubusercontent.com/TUMChronobiology/MissionStatement/main/MissionStatement_2023.02.24_v1.2.md)
+
 - [Conventions](./conventions/main.md)
     - [Participant ID](./conventions/participant_id.md)
     - [Project ID](./conventions/project_id.md)
