@@ -1,8 +1,6 @@
 # Folder structure
 
-## Metadata
-
-### Scope
+## Scope
 
 The following presents a standardised way for naming and organising project code, materials and data. The level of this specification is at the level of folders and files, which exist on local drives, network drives, in repositories and in data releases (e.g. those on FigShare).
 
