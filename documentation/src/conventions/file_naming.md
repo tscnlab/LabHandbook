@@ -1,3 +1,0 @@
-# File naming conventions
-
-
