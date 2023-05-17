@@ -1,4 +1,4 @@
-![Lab logo](./_assets/lablogo.svg)
+![Lab logo](./_assets/lablogo.png)
 
 # Lab Handbook
 

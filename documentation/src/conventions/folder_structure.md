@@ -85,11 +85,11 @@ The `data/raw/` folder is organised with the following subfolders:
 ```
 data/raw/screening/
 data/raw/continuous/
-data/raw/expsession01/
-data/raw/expsession02/
-data/raw/expsession03/
+data/raw/01_expsession/
+data/raw/02_expsession/
+data/raw/03_expsession/
 ...
-data/raw/expsession##/
+data/raw/##_expsession##/
 
 ```
 
