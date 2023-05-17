@@ -51,7 +51,8 @@ $ProjectID/
 	ethics/
 	code/		
 	data/
-		derivatives/ 
+		derivatives/
+		raw.csv
 		raw/
 			$ParticipantID/
 	docs/
@@ -90,6 +91,8 @@ Data in in the `data/` folder follow the following pattern:
 $ProjectID/data/<processing step>/$ParticipantID/<session number>_expsession/<modality>/<block number>_<tests>[-<test number>]_<timestamp>.<file_extension>
 ```
 
+The `raw.csv` file contains an overview of the data collected and available in the folder.
+
 The `data/raw/` folder is organised with the following subfolders:
 
 ```
@@ -107,12 +110,11 @@ As an example:
 
 ```
 CiViBe/
-	data/ <- Check
+	data/
 		derivatives/ 
-		raw.csv (database of measurements, NT)
-		raw/ <- Check
+		raw/
 			101
-				Screening/ <- 
+				screening/ 
 					metropsis/
 						01_metropsis_<timestamp>/
 					oct/	
@@ -120,15 +122,15 @@ CiViBe/
 								01_oct_<timestamp>.metadata.txt
 								01_oct_<timestamp>.dicom
 								01_oct_<timestamp>.csv
-				Continuous/
+				continuous/
 					metadata.txt
 					actigraphy/
 						01_actigraphy_<timestamp>.txt
-					  01_actigraphy_<timestamp>.metadata.txt
+					  	01_actigraphy_<timestamp>.metadata.txt
 					sleepdiary/
 						01_sleepdiary_<timestamp>.txt
 						01_sleepdiary_<timestamp>.metadata.txt
-				01_expsession/ <- Experimental session
+				01_expsession/
 					log_<timestamp>.log <- Check (session-wise log)
 					metadata.txt <- Experimental meta-data
 					resources/ <- Optional
@@ -136,10 +138,9 @@ CiViBe/
 						00_stimulus_sequences.csv
 					pvt/
 						01_pvt01_<timestamp>.csv <- Check if block is 2 numbers, then string, then timestamp
-		        01_pvt01_<timestamp>.csv
-						01_pvt01_<timestamp>.log (test-wise log) <- Optional
+		        		01_pvt01_<timestamp>.csv
 						01_pvt01_<timestamp>.log (test-wise log)
-					oct/			
+					oct/
 						<block>_<test>-<number>_<timestamp>.<filetype>		
 						01_cornealthickness_<timestamp>.metadata.txt
 						01_cornealthickness_<timestamp>.dicom
