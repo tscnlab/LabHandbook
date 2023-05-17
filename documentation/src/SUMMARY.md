@@ -3,7 +3,7 @@
 - [Introduction](./intro.md)
 
 - [Background](./background/main.md)
-	- [Mission Statement](https://raw.githubusercontent.com/tscnlab/MissionStatement/main/MissionStatement_2023.02.24_v1.2.md)
+	- [Mission Statement](./background/MissionStatement_2023.02.24_v1.2.md)
 
 - [Conventions](./conventions/main.md)
     - [Participant ID](./conventions/participant_id.md)
