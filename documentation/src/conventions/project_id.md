@@ -24,4 +24,4 @@ Manuel Spitschan
 
 #### Project ID
 
-Project sshould be named in an informative way. They should not contain the name of the experimenter of PI.
+Project should be named in an informative way. They should not contain the name of the experimenter of PI.

@@ -3,8 +3,9 @@
 - [Introduction](./intro.md)
 
 - [Conventions](./conventions/main.md)
-    - [IDs and Naming](./conventions/identification-and-naming.md)
-    - [Terminology](./conventions/terminology.md)
+    - [Participant ID](./conventions/participant_id.md)
+    - [Project ID](./conventions/project_id.md)
+    - [Folder structure](./conventions/folder_structure.md)
 
 - [Standard Operating Procedures](./sops/main.md)
     - [Template structure](./sops/template.md)
@@ -15,7 +16,6 @@
     - [Light measurements](./sops/light-measurement-devices/main.md)
         - [Go Pro Hero10](./sops/light-measurement-devices/gopro-hero10.md)
         - [Colorimeter WP 690](./sops/light-measurement-devices/colorimeter-wp690.md)
-
 
 -  [How To's](./how-tos/main.md)
     - [Template structure](./how-tos/template-software/main.md)
