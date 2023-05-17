@@ -44,12 +44,13 @@ Within an fMRI session, a participant will complete several runs, e.g. T1 struct
 
 ### Overall structure
 
-The overall folder structure is defined as follows. The following are well-defined placeholders: $ProjectID, $ParticipantID. $_repo corresponds to the project-specific name of specific codes.
+The overall folder structure is defined as follows. The following are well-defined placeholders: `$ProjectID`, `$ParticipantID`. `$_repo` corresponds to the project-specific name of specific codes.
 
 ```
 $ProjectID/
 	ethics/
-	code/		
+	code/
+		$_repo		
 	data/
 		derivatives/
 		raw.csv
@@ -175,3 +176,29 @@ The `output/` folder contains figures, tables and other data outputs related to 
 #### `reports/` folder
 
 The `reports/` folder contains any published outputs related to the project, including posters (in `posters/`), presentation decks (in `presentations/`) and manuscripts (`/manuscripts/`).
+
+
+### Creating an empty structure
+
+To create an empty folder, you can run the following commands in Terminal (OS X & Linux):
+
+```
+mkdir EMPTY_PROJECT
+mkdir EMPTY_PROJECT/ethics
+mkdir EMPTY_PROJECT/code
+mkdir EMPTY_PROJECT/data
+mkdir EMPTY_PROJECT/data/derivatives
+mkdir EMPTY_PROJECT/data/raw
+mkdir EMPTY_PROJECT/data/raw/101
+mkdir EMPTY_PROJECT/data/raw/101/screening
+mkdir EMPTY_PROJECT/data/raw/101/continuous
+mkdir EMPTY_PROJECT/data/raw/101/01_expsession
+mkdir EMPTY_PROJECT/data/raw/101/01_expsession/meas/
+mkdir EMPTY_PROJECT/docs
+mkdir EMPTY_PROJECT/notebooks
+mkdir EMPTY_PROJECT/materials
+mkdir EMPTY_PROJECT/materials/questionnaires
+mkdir EMPTY_PROJECT/materials/sops
+mkdir EMPTY_PROJECT/output
+touch EMPTY_PROJECT/README.md
+```
