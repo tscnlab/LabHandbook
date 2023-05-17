@@ -8,7 +8,7 @@ The following presents a standardised way for naming and organising project code
 
 ### Principles
 
-The folder structure definition inherits several key naming conventions, including for [Participant ID](participant_id.md), and [Project Name](project_name.md).
+The folder structure definition inherits several key naming conventions, including for [Participant ID](participant_id.md), and [Project Name](project_id.md).
 
 ### Definitions
 
