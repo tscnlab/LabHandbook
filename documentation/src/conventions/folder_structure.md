@@ -1,22 +1,8 @@
 # Folder structure
 
-## Metadata
-
-### Scope
+## Scope
 
 The following presents a standardised way for naming and organising project code, materials and data. The level of this specification is at the level of folders and files, which exist on local drives, network drives, in repositories and in data releases (e.g. those on FigShare).
-
-### Version
-
-v1.0-20230517
-
-### Owner
-
-Manuel Spitschan
-
-### Reviewer
-
-Maydel Fernandez Alonso
 
 ## Definition
 
@@ -44,14 +30,16 @@ Within an fMRI session, a participant will complete several runs, e.g. T1 struct
 
 ### Overall structure
 
-The overall folder structure is defined as follows. The following are well-defined placeholders: $ProjectID, $ParticipantID. $_repo corresponds to the project-specific name of specific codes.
+The overall folder structure is defined as follows. The following are well-defined placeholders: `$ProjectID`, `$ParticipantID`. `$_repo` corresponds to the project-specific name of specific codes.
 
 ```
 $ProjectID/
 	ethics/
-	code/		
+	code/
+		$_repo		
 	data/
-		derivatives/ 
+		derivatives/
+		raw.csv
 		raw/
 			$ParticipantID/
 	docs/
@@ -90,6 +78,8 @@ Data in in the `data/` folder follow the following pattern:
 $ProjectID/data/<processing step>/$ParticipantID/<session number>_expsession/<modality>/<block number>_<tests>[-<test number>]_<timestamp>.<file_extension>
 ```
 
+The `raw.csv` file contains an overview of the data collected and available in the folder.
+
 The `data/raw/` folder is organised with the following subfolders:
 
 ```
@@ -107,12 +97,11 @@ As an example:
 
 ```
 CiViBe/
-	data/ <- Check
+	data/
 		derivatives/ 
-		raw.csv (database of measurements, NT)
-		raw/ <- Check
+		raw/
 			101
-				Screening/ <- 
+				screening/ 
 					metropsis/
 						01_metropsis_<timestamp>/
 					oct/	
@@ -120,15 +109,15 @@ CiViBe/
 								01_oct_<timestamp>.metadata.txt
 								01_oct_<timestamp>.dicom
 								01_oct_<timestamp>.csv
-				Continuous/
+				continuous/
 					metadata.txt
 					actigraphy/
 						01_actigraphy_<timestamp>.txt
-					  01_actigraphy_<timestamp>.metadata.txt
+					  	01_actigraphy_<timestamp>.metadata.txt
 					sleepdiary/
 						01_sleepdiary_<timestamp>.txt
 						01_sleepdiary_<timestamp>.metadata.txt
-				01_expsession/ <- Experimental session
+				01_expsession/
 					log_<timestamp>.log <- Check (session-wise log)
 					metadata.txt <- Experimental meta-data
 					resources/ <- Optional
@@ -136,10 +125,9 @@ CiViBe/
 						00_stimulus_sequences.csv
 					pvt/
 						01_pvt01_<timestamp>.csv <- Check if block is 2 numbers, then string, then timestamp
-		        01_pvt01_<timestamp>.csv
-						01_pvt01_<timestamp>.log (test-wise log) <- Optional
+		        		01_pvt01_<timestamp>.csv
 						01_pvt01_<timestamp>.log (test-wise log)
-					oct/			
+					oct/
 						<block>_<test>-<number>_<timestamp>.<filetype>		
 						01_cornealthickness_<timestamp>.metadata.txt
 						01_cornealthickness_<timestamp>.dicom
@@ -174,3 +162,29 @@ The `output/` folder contains figures, tables and other data outputs related to 
 #### `reports/` folder
 
 The `reports/` folder contains any published outputs related to the project, including posters (in `posters/`), presentation decks (in `presentations/`) and manuscripts (`/manuscripts/`).
+
+
+### Creating an empty structure
+
+To create an empty folder, you can run the following commands in Terminal (OS X & Linux):
+
+```
+mkdir EMPTY_PROJECT
+mkdir EMPTY_PROJECT/ethics
+mkdir EMPTY_PROJECT/code
+mkdir EMPTY_PROJECT/data
+mkdir EMPTY_PROJECT/data/derivatives
+mkdir EMPTY_PROJECT/data/raw
+mkdir EMPTY_PROJECT/data/raw/101
+mkdir EMPTY_PROJECT/data/raw/101/screening
+mkdir EMPTY_PROJECT/data/raw/101/continuous
+mkdir EMPTY_PROJECT/data/raw/101/01_expsession
+mkdir EMPTY_PROJECT/data/raw/101/01_expsession/meas/
+mkdir EMPTY_PROJECT/docs
+mkdir EMPTY_PROJECT/notebooks
+mkdir EMPTY_PROJECT/materials
+mkdir EMPTY_PROJECT/materials/questionnaires
+mkdir EMPTY_PROJECT/materials/sops
+mkdir EMPTY_PROJECT/output
+touch EMPTY_PROJECT/README.md
+```

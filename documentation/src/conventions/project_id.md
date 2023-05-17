@@ -1,22 +1,8 @@
 # Project Name
 
-## Metadata
-
-### Scope
+## Scope
 
 The following presents a standardised way for assignig Project IDs.
-
-### Version
-
-v1.0-20230517
-
-### Owner
-
-Manuel Spitschan
-
-### Reviewer
-
-?
 
 ## Definition
 
