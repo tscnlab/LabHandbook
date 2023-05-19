@@ -32,8 +32,6 @@ Within an fMRI session, a participant will complete several runs, e.g. T1 struct
 
 The overall folder structure is defined as follows. The following are well-defined placeholders: `$ProjectID`, `$ParticipantID`. `$_repo` corresponds to the project-specific name of specific codes.
 
-Note that each project folder is linked to one specific project and is self-contained. If there are multiple versions of an experiment or a pilot data collection, this should be represented in the hierarchy by including it at the participant-level. 
-
 ```
 $ProjectID/
 	ethics/
@@ -75,6 +73,8 @@ The `code/` folder may also include notebooks for reproducible analyses, e.g. Ju
 #### `data/` folder
 
 The `data/` folder contains all data collected in the project. This includes raw, processed and derived data. The `raw/` data folder is included to be organised by participants. Depending on the project needs, the folder structure of `derivatives` can be more loosely populated. We consider derivatives data that are one step away or multiple steps from the raw data, e.g. manually cleaned or preprocessed data. The `outputs/` folder contains any outputs directly generated from the data that are useful but not meant for publication.
+
+The `data/` folder can be accompanied by a sufix that differentiates between data collected at different stages or under different experimental protocols. For example `data_pilot/` and `data_main/`. There can be as many data folders as needed, as long as the prefix of `data*/` is maintained, and each folder follows the same underlying structure or pattern.
 
 Data in in the `data/` folder follow the following pattern:
 
