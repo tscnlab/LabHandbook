@@ -29,6 +29,6 @@ timestamp = datetime.now().strftime("%Y%m%dT%H%M%S")
 print(timestamp)
 ```
 
-This code snippet retrieves the current date and time using datetime.now() and then formats it according to the desired pattern "%Y%m%dT%H%M%S". The %Y represents the four-digit year, %m represents the two-digit month, %d represents the two-digit day, %H represents the two-digit hour in 24-hour format, %M represents the two-digit minute, and %S represents the two-digit second.
+This code snippet retrieves the current date and time using datetime.now() and then formats it according to the desired pattern `%Y%m%dT%H%M%S`. The `%Y` represents the four-digit year, `%m` represents the two-digit month, `%d` represents the two-digit day, `%H` represents the two-digit hour in 24-hour format, `%M` represents the two-digit minute, and `%S` represents the two-digit second.
 
-The output will be a string representing the current timestamp in the format "yyyyMMddTHHMMSS", following the ISO 8601 standard.
+The output will be a string representing the current timestamp in the `yyyyMMddTHHMMSS` format, following the ISO 8601 standard.
