@@ -8,7 +8,7 @@ The following presents a standardised way for naming and organising project code
 
 ### Principles
 
-The folder structure definition inherits several key naming conventions, including for [Participant ID](participant_id.md), [Project Name](project_id.md), [Timestamps](timestamps.md).
+The folder structure definition inherits several key naming conventions, including for [Participant ID](participant_id.md), [Project Name](project_id.md) and [Timestamps](timestamps.md).
 
 ### Definitions
 
@@ -142,6 +142,8 @@ CiViBe/
 
 
 The `screening` folder contains all information related to the screening session. 
+
+Timestamps follow the [Timestamps](timestamps.md) convention.
 
 #### `docs/` folder 
 
