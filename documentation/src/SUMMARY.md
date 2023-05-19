@@ -8,8 +8,9 @@
 - [Conventions](./conventions/main.md)
     - [Participant ID](./conventions/participant_id.md)
     - [Project ID](./conventions/project_id.md)
-    - [Folder structure](./conventions/folder_structure.md)
+    - [Timestamps](./conventions/timestamps.md)
     - [Variable conventions](./conventions/variables.md)
+    - [Folder structure](./conventions/folder_structure.md)
 
 - [Standard Operating Procedures](./sops/main.md)
     - [Template structure](./sops/template.md)
