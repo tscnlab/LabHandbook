@@ -30,7 +30,11 @@ Within an fMRI session, a participant will complete several runs, e.g. T1 struct
 
 ### Overall structure
 
-The overall folder structure is defined as follows. The following are well-defined placeholders: `$ProjectID`, `$ParticipantID`. `$_repo` corresponds to the project-specific name of specific codes.
+The overall folder structure is defined as follows. The following are well-defined placeholders: `$ProjectID` and `$ParticipantID`.
+
+`$_experimentID` corresponds to the stage of the experiment, e.g. `pilot` or `main`.
+
+`$_repo` corresponds to the project-specific name of specific codes.
 
 ```
 $ProjectID/
@@ -42,7 +46,8 @@ $ProjectID/
 		outputs/
 		raw.csv
 		raw/
-			$ParticipantID/
+			$_experimentID
+				$ParticipantID/
 	docs/
 	materials/
 		questionnaires/
