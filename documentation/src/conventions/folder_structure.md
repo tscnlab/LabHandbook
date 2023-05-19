@@ -32,8 +32,6 @@ Within an fMRI session, a participant will complete several runs, e.g. T1 struct
 
 The overall folder structure is defined as follows. The following are well-defined placeholders: `$ProjectID`, `$ParticipantID`. `$_repo` corresponds to the project-specific name of specific codes.
 
-Note that each project folder is linked to one specific project and is self-contained. If there are multiple versions of an experiment or a pilot data collection, this should be represented in the hierarchy by including it at the participant-level. 
-
 ```
 $ProjectID/
 	ethics/
@@ -58,6 +56,13 @@ $ProjectID/
   
 ```
 
+Note that each project folder is linked to one specific project and is self-contained. If there are multiple versions of an experiment or a pilot data collection, this should be represented in the hierarchy by including it at the participant-level, e.g. as follows:
+
+```
+data/raw/101/pilot
+data/raw/101/main_expt
+```
+
 #### `README.md`
 
 The file `README.md` contains information about the project, including the author.
@@ -79,7 +84,7 @@ The `data/` folder contains all data collected in the project. This includes raw
 Data in in the `data/` folder follow the following pattern:
 
 ```
-$ProjectID/data/<processing step>/$ParticipantID/<session number>_expsession/<modality>/<block number>_<tests>[-<test number>]_<timestamp>.<file_extension>
+$ProjectID/data/<processing step>/$ParticipantID/<experiment name (e.g. pilot or main)>/<session number>_expsession/<modality>/<block number>_<tests>[-<test number>]_<timestamp>.<file_extension>
 ```
 
 The `raw.csv` file contains an overview of the data collected and available in the `data/` folder. This is to keep an inventory of the data collected.
@@ -87,17 +92,19 @@ The `raw.csv` file contains an overview of the data collected and available in t
 The `data/raw/` folder is organised with the following subfolders:
 
 ```
-data/raw/screening/
-data/raw/continuous/
-data/raw/01_expsession/
-data/raw/02_expsession/
-data/raw/03_expsession/
+data/raw/main/screening/
+data/raw/main/continuous/
+data/raw/main/01_expsession/
+data/raw/main/02_expsession/
+data/raw/main/03_expsession/
 ...
-data/raw/##_expsession##/
-data/raw/group/
+data/raw/main/##_expsession##/
+data/raw/main/group/
 ```
 
-The `raw/group/` folder contains any data that are collected and only available at the group level and not at the individual-participant level. This includes, for example, data from REDCap or from devices that only collect data from multiple participants.
+Here, `main` corresponds to the main experiment, but could also be e.g. `pilot`.
+
+The `group/` folder contains any data that are collected and only available at the group level and not at the individual-participant level. This includes, for example, data from REDCap or from devices that only collect data from multiple participants.
 
 As an example:
 
@@ -107,47 +114,48 @@ CiViBe/
 		derivatives/ 
 		raw/
 			101
-				screening/ 
-					metropsis/
-						01_metropsis_<timestamp>/
-					oct/	
-						01_oct_<timestamp>/
-								01_oct_<timestamp>.metadata.txt
-								01_oct_<timestamp>.dicom
-								01_oct_<timestamp>.csv
-				continuous/
-					metadata.txt
-					actigraphy/
-						01_actigraphy_<timestamp>.txt
-					  	01_actigraphy_<timestamp>.metadata.txt
-					sleepdiary/
-						01_sleepdiary_<timestamp>.txt
-						01_sleepdiary_<timestamp>.metadata.txt
-				01_expsession/
-					log_<timestamp>.log <- Check (session-wise log)
-					metadata.txt <- 
-					
-					
-					
-					meta-data
-					resources/ <- Optional
-						00_beep.wav
-						00_stimulus_sequences.csv
-					pvt/
-						01_pvt01_<timestamp>.csv <- Check if block is 2 numbers, then string, then timestamp
-		        		01_pvt01_<timestamp>.csv
-						01_pvt01_<timestamp>.log (test-wise log)
-					oct/
-						<block>_<test>-<number>_<timestamp>.<filetype>		
-						01_cornealthickness_<timestamp>.metadata.txt
-						01_cornealthickness_<timestamp>.dicom
-						01_cornealthickness_<timestamp>.csv
-						01_macula_<timestamp>.metadata.txt
-						01_macula_<timestamp>.dicom
-						01_macula_<timestamp>.csv
-						02_macula_<timestamp>.metadata.txt
-						02_macula_<timestamp>.dicom
-						02_macula_<timestamp>.csv
+				main/
+					screening/ 
+						metropsis/
+							01_metropsis_<timestamp>/
+						oct/	
+							01_oct_<timestamp>/
+									01_oct_<timestamp>.metadata.txt
+									01_oct_<timestamp>.dicom
+									01_oct_<timestamp>.csv
+					continuous/
+						metadata.txt
+						actigraphy/
+							01_actigraphy_<timestamp>.txt
+							01_actigraphy_<timestamp>.metadata.txt
+						sleepdiary/
+							01_sleepdiary_<timestamp>.txt
+							01_sleepdiary_<timestamp>.metadata.txt
+					01_expsession/
+						log_<timestamp>.log <- Check (session-wise log)
+						metadata.txt <- 
+
+
+
+						meta-data
+						resources/ <- Optional
+							00_beep.wav
+							00_stimulus_sequences.csv
+						pvt/
+							01_pvt01_<timestamp>.csv <- Check if block is 2 numbers, then string, then timestamp
+						01_pvt01_<timestamp>.csv
+							01_pvt01_<timestamp>.log (test-wise log)
+						oct/
+							<block>_<test>-<number>_<timestamp>.<filetype>		
+							01_cornealthickness_<timestamp>.metadata.txt
+							01_cornealthickness_<timestamp>.dicom
+							01_cornealthickness_<timestamp>.csv
+							01_macula_<timestamp>.metadata.txt
+							01_macula_<timestamp>.dicom
+							01_macula_<timestamp>.csv
+							02_macula_<timestamp>.metadata.txt
+							02_macula_<timestamp>.dicom
+							02_macula_<timestamp>.csv
 ```
 
 
