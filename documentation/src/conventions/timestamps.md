@@ -18,9 +18,9 @@ The `T` is a separator between date specification and time specification.
 
 The time specification follows `HH` for hours, `MM` for minutes, and `SS` for seconds. As an example, `18:33:22` corresponds to 6 pm, minute 33 at second 22. When no second information is available, the `SS` information should be set to `00`.
 
-### Generating the time stamp
+### Generating the timestamp
 
-To generate such a time stamp in Python, you can use the following command:
+To generate such a timestamp in Python, you can use the following command:
 
 ```
 from datetime import datetime
