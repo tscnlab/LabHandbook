@@ -81,6 +81,8 @@ The `code/` folder may also include notebooks for reproducible analyses, e.g. Ju
 
 The `data/` folder contains all data collected in the project. This includes raw, processed and derived data. The `raw/` data folder is included to be organised by participants. Depending on the project needs, the folder structure of `derivatives` can be more loosely populated. We consider derivatives data that are one step away or multiple steps from the raw data, e.g. manually cleaned or preprocessed data. The `outputs/` folder contains any outputs directly generated from the data that are useful but not meant for publication.
 
+The `data/` folder can be accompanied by a sufix that differentiates between data collected at different stages or under different experimental protocols. For example `data_pilot/` and `data_main/`. There can be as many data folders as needed, as long as the prefix of `data*/` is maintained, and each folder follows the same underlying structure or pattern.
+
 Data in in the `data/` folder follow the following pattern:
 
 ```
