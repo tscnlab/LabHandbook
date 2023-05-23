@@ -37,7 +37,7 @@ The option "Not collected" is not provided as a choice to select, this is an int
 |                    | employment_status  | Marginally employed (Minijob)            | 3    |                       |                 |
 |                    | employment_status  | Not employed but studying or in training | 4    |                       |                 |
 |                    | employment_status  | Studying and employed                    | 5    |                       |                 |   
-|                    | employment_status  | Not enmployed                            | 6    |                       |                 |
+|                    | employment_status  | Not employed                             | 6    |                       |                 |
 |                    | employment_status  | Not collected                            | -1   |                       |                 |
 | Preferred language | preferred_language | English                                  | 1    | What is the language you prefer to do the study in?* |   |
 |                    | preferred_language | German                                   | 2    |                       |                 |
@@ -47,7 +47,7 @@ The option "Not collected" is not provided as a choice to select, this is an int
 |                                             | preferred_language_proficiency | Intermediate | 2 |  |  |
 |                                             | preferred_language_proficiency | Basic        | 1 |  |  |
 |  |  |  |  |  |  |
-| Karolinska Sleepiness Scale | kss | Extremely alert | 1 |  |  |
+| Karolinska Sleepiness Scale (KSS) | kss | Extremely alert | 1 |  |  |
 |                             | kss | Very alert      | 2 |  |  |
 |                             | kss | Alert           | 3 |  |  |
 |                             | kss | Rather alert    | 4 |  |  |
