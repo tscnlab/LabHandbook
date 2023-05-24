@@ -26,3 +26,4 @@
     - [Template structure](./how-tos/template-software/main.md)
     - [Internal documentation on GitHub](./how-tos/document-on-github/main.md)
     - [Conda](./how-tos/conda/main.md)
+    - [RedCap](./how-tos/redcap/main.md)
