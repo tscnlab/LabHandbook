@@ -10,7 +10,7 @@ We agreed to use the following conventions for demographic variables and answer 
 
 The option "Prefer not to say" is always the last option in single choice answers.
 The option "Not collected" is not provided as a choice to select, this is an internal coding.
-* For Perferred Language the following Note has to be added to the Question:
+* For "Preferred language" the following note has to be added to the question:
 "Note: If you do not prefer either of the languages, you are not eligible for the study.
        This means you can not participate in the study."
 
@@ -18,7 +18,7 @@ The option "Not collected" is not provided as a choice to select, this is an int
 
 | Description        | Variable           | Meaning                                  | Code | Question              | Notes           |
 |--------------------|--------------------|------------------------------------------|------|-----------------------|-----------------|
-| YesNo              | yesno              | Yes                                      | 1    |                       | binary Question |
+| YesNo              | yesno              | Yes                                      | 1    |                       | binary question |
 |                    | yesno              | No                                       | 0    |                       |                 |
 | Sex                | sex                | Female                                   | 1    | Sex assigned at birth |                 |
 |                    | sex                | Male                                     | 2    |                       |                 |
@@ -37,7 +37,7 @@ The option "Not collected" is not provided as a choice to select, this is an int
 |                    | employment_status  | Marginally employed (Minijob)            | 3    |                       |                 |
 |                    | employment_status  | Not employed but studying or in training | 4    |                       |                 |
 |                    | employment_status  | Studying and employed                    | 5    |                       |                 |   
-|                    | employment_status  | Not enmployed                            | 6    |                       |                 |
+|                    | employment_status  | Not employed                             | 6    |                       |                 |
 |                    | employment_status  | Not collected                            | -1   |                       |                 |
 | Preferred language | preferred_language | English                                  | 1    | What is the language you prefer to do the study in?* |   |
 |                    | preferred_language | German                                   | 2    |                       |                 |
@@ -47,7 +47,7 @@ The option "Not collected" is not provided as a choice to select, this is an int
 |                                             | preferred_language_proficiency | Intermediate | 2 |  |  |
 |                                             | preferred_language_proficiency | Basic        | 1 |  |  |
 |  |  |  |  |  |  |
-| Karolinska Sleepiness Scale | kss | Extremely alert | 1 |  |  |
+| Karolinska Sleepiness Scale (KSS) | kss | Extremely alert | 1 |  |  |
 |                             | kss | Very alert      | 2 |  |  |
 |                             | kss | Alert           | 3 |  |  |
 |                             | kss | Rather alert    | 4 |  |  |
