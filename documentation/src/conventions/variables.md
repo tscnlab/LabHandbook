@@ -15,38 +15,52 @@ The option "Not collected" is not provided as a choice to select, this is an int
        This means you can not participate in the study."
 
 
+### Standard Demographic Variables
 
-| Description        | Variable           | Meaning                                  | Code | Question              | Notes           |
-|--------------------|--------------------|------------------------------------------|------|-----------------------|-----------------|
-| YesNo              | yesno              | Yes                                      | 1    |                       | binary question |
-|                    | yesno              | No                                       | 0    |                       |                 |
-| Sex                | sex                | Female                                   | 1    | Sex assigned at birth |                 |
-|                    | sex                | Male                                     | 2    |                       |                 |
-|                    | sex                | Intersex                                 | 3    |                       |                 |
-|                    | sex                | Not collected                            | -1   |                       |                 |
-|                    | sex                | Prefer not to say                        | 0    |                       |                 |
-| Gender             | gender             | Woman                                    | 1    |                       |                 |
-|                    | gender             | Man                                      | 2    |                       |                 |
-|                    | gender             | Non-binary                               | 3    |                       |                 |
-|                    | gender             | Other                                    | 4    |                       |                 |
-|                    | gender             | Not collected                            | -1   |                       |                 |
-|                    | gender             | Prefer not to say                        | 0    |                       |                 |
-| Age                | age                | Age in years                             |      |  Age in years         | integer value   |
-| Employment         | employment_status  | Full time employed                       | 1    |                       |                 |
-|                    | employment_status  | Employed part time                       | 2    |                       |                 |
-|                    | employment_status  | Marginally employed (Minijob)            | 3    |                       |                 |
-|                    | employment_status  | Not employed but studying or in training | 4    |                       |                 |
-|                    | employment_status  | Studying and employed                    | 5    |                       |                 |   
-|                    | employment_status  | Not employed                             | 6    |                       |                 |
-|                    | employment_status  | Not collected                            | -1   |                       |                 |
-| Preferred language | preferred_language | English                                  | 1    | What is the language you prefer to do the study in?* |   |
-|                    | preferred_language | German                                   | 2    |                       |                 |
-|                    | preferred_language | None of them                             | 3    |                       |                 |
-| Preferred language proficiancy (self-rated) | preferred_language_proficiency | Native       | 4 |  |  |
-|                                             | preferred_language_proficiency | Advanced     | 3 |  |  |
-|                                             | preferred_language_proficiency | Intermediate | 2 |  |  |
-|                                             | preferred_language_proficiency | Basic        | 1 |  |  |
-|  |  |  |  |  |  |
+
+| Description        | Variable           | Meaning                                  | Code | Question              | Notes           | Meaning German | Question German |
+|--------------------|--------------------|------------------------------------------|------|-----------------------|-----------------|----------------|-----------------|
+| YesNo              | yesno              | Yes                                      | 1    |                       | binary question |   Ja           |                 |
+|                    | yesno              | No                                       | 0    |                       |                 |   Nein         |                 |
+|  |  |  |  |  |  |  |  |
+| Sex                | sex                | Female                                   | 1    | Sex assigned at birth |                 |  Weiblich      | Bei der Geburt zugewiesenes Geschlecht |
+|                    | sex                | Male                                     | 2    |                       |                 |  Männlich      |                  |
+|                    | sex                | Intersex                                 | 3    |                       |                 |  Intersexuell  |  |
+|                    | sex                | Not collected                            | -1   |                       |                 |  Nicht erhoben |  |
+|                    | sex                | Prefer not to say                        | 0    |                       |                 |  Ich möchte keine Angaben dazu machen  |  |
+|  |  |  |  |  |  |  |  |
+| Gender             | gender             | Woman                                    | 1    |                       |                 |  Frau | Mit welchem Geschlecht identifizieren Sie sich? |
+|                    | gender             | Man                                      | 2    |                       |                 |  Mann | |
+|                    | gender             | Non-binary                               | 3    |                       |                 |  Nicht binär | | 
+|                    | gender             | Other                                    | 4    |                       |                 |  Andere | | 
+|                    | gender             | Not collected                            | -1   |                       |                 |  Nicht erhoben | |  
+|                    | gender             | Prefer not to say                        | 0    |                       |                 |  Ich möchte keine Angaben dazu machen |  |
+|  |  |  |  |  |  |  |  |
+| Age                | age                | Age in years                             |      |  Age in years         | integer value   | Alter in Jahren | Alter in Jahren |
+|  |  |  |  |  |  |  |  |
+| Employment         | employment_status  | Full time employed                       | 1    |                       |                 | Vollzeit | |
+|                    | employment_status  | Employed part time                       | 2    |                       |                 | Teilzeit | |
+|                    | employment_status  | Marginally employed (Minijob)            | 3    |                       |                 | Geringfügig beschäftigt (Minijob) | | 
+|                    | employment_status  | Not employed but studying or in training | 4    |                       |                 | Nicht beschäftigt aber in Studium oder Ausbildung | |
+|                    | employment_status  | Studying and employed                    | 5    |                       |                 | Studium und beschäftigt | |
+|                    | employment_status  | Not employed                             | 6    |                       |                 | Nicht beschäftigt | |
+|                    | employment_status  | Not collected                            | -1   |                       |                 | Nicht erhoben | |
+|  |  |  |  |  |  |  |  |
+| Preferred language | preferred_language | English                                  | 1    | What is the language you prefer to do the study in?* |   | Englisch | In welcher Sprache würden Sie gerne an dieser Studie teilnehmen? |
+|                    | preferred_language | German                                   | 2    |                       |                 | Deutsch |
+|                    | preferred_language | None of them                             | 3    |                       |                 | Keine von diesen |
+|  |  |  |  |  |  |  |  |
+| Preferred language proficiency (self-rated) | preferred_language_proficiency | Native       | 4 |  |  | Muttersprache | Wie gut beherrschen Sie Ihre bevorzugte Sprache? |
+|                                             | preferred_language_proficiency | Advanced     | 3 |  |  | Fortgeschritten |  |  
+|                                             | preferred_language_proficiency | Intermediate | 2 |  |  | Mittleres Niveau |  |
+|                                             | preferred_language_proficiency | Basic        | 1 |  |  | Grundlegende Kenntnisse |  |
+  
+
+
+### Specific measurement instruments
+
+| Description        | Variable           | Meaning                                  | Code | Question              | Notes           | Meaning German | Question German |
+|--------------------|--------------------|------------------------------------------|------|-----------------------|-----------------|----------------|-----------------|
 | Karolinska Sleepiness Scale (KSS) | kss | Extremely alert | 1 |  |  |
 |                             | kss | Very alert      | 2 |  |  |
 |                             | kss | Alert           | 3 |  |  |
