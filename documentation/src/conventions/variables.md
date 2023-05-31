@@ -6,7 +6,10 @@ The following presents a standardised way for naming variables and their respons
 
 ## Definition
 
-We agreed to use the following conventions for demographic variables and answer possibilities and the for the Karolinska Sleepiness Scale (KSS) (10 is optional):
+We agreed to use the following conventions for demographic variables and answer possibilities and for specific meaaurement instruments as for the Karolinska Sleepiness Scale (KSS) (10 is optional)
+
+The standard YesNo question is a binary question with 1=Yes and 0=No.
+If more answer options are needed, the question must be named other, for example YesNomO (for YesNo multiple otions).
 
 The option "Prefer not to say" is always the last option in single choice answers.
 The option "Not collected" is not provided as a choice to select, this is an internal coding.
@@ -38,7 +41,7 @@ The option "Not collected" is not provided as a choice to select, this is an int
 |  |  |  |  |  |  |  |  |
 | Age                | age                | Age in years                             |      |  Age in years         | integer value   | Alter in Jahren | Alter in Jahren |
 |  |  |  |  |  |  |  |  |
-| Employment         | employment_status  | Full time employed                       | 1    |                       |                 | Vollzeit | |
+| Employment         | employment_status  | Full time employed                       | 1    |                       |                 | Vollzeit | Wie sind Sie beschäftigt? |
 |                    | employment_status  | Employed part time                       | 2    |                       |                 | Teilzeit | |
 |                    | employment_status  | Marginally employed (Minijob)            | 3    |                       |                 | Geringfügig beschäftigt (Minijob) | | 
 |                    | employment_status  | Not employed but studying or in training | 4    |                       |                 | Nicht beschäftigt aber in Studium oder Ausbildung | |
@@ -61,14 +64,14 @@ The option "Not collected" is not provided as a choice to select, this is an int
 
 | Description        | Variable           | Meaning                                  | Code | Question              | Notes           | Meaning German | Question German |
 |--------------------|--------------------|------------------------------------------|------|-----------------------|-----------------|----------------|-----------------|
-| Karolinska Sleepiness Scale (KSS) | kss | Extremely alert | 1 |  |  |
-|                             | kss | Very alert      | 2 |  |  |
-|                             | kss | Alert           | 3 |  |  |
-|                             | kss | Rather alert    | 4 |  |  |
-|                             | kss | Neither alert nor sleepy | 5 |  |  |
-|                             | kss | Some signs of sleepiness | 6 |  |  |
-|                             | kss | Sleepy, but no effort to keep awake | 7 |  |  |
-|                             | kss | Sleepy, but some effort to keep awake | 8 |  |  |
-|                             | kss | Very sleepy, great effort to keep awake, fighting sleep | 9 |  |  |
-|                             | kss | Extremely sleepy, can't keep awake | 10 |  | Optional |
+| Karolinska Sleepiness Scale (KSS) | kss | Extremely alert | 1 |  |  | Extrem wach | Bitte bewerten Sie Ihre Schläfrigkeit in den letzten 5 Minuten |
+|                             | kss | Very alert      | 2 |  |  | Sehr wach |  |
+|                             | kss | Alert           | 3 |  |  | Wach |  |
+|                             | kss | Rather alert    | 4 |  |  | Ziemlich wach |  |
+|                             | kss | Neither alert nor sleepy | 5 |  |  | Weder wach noch schläfrig |  |
+|                             | kss | Some signs of sleepiness | 6 |  |  | Einige Anzeichen von Schläfrigkeit |  |
+|                             | kss | Sleepy, but no effort to keep awake | 7 |  |  | Schläfrig, aber kann noch ohne Mühe wach bleiben |  |
+|                             | kss | Sleepy, but some effort to keep awake | 8 |  |  | Schläfrig, habe Mühe wach zu bleiben |  |
+|                             | kss | Very sleepy, great effort to keep awake, fighting sleep | 9 |  |  | Sehr schläfrig, kann nur mit großer Mühe wach bleiben; kämpfe gegen den Schlaf |  |
+|                             | kss | Extremely sleepy, can't keep awake | 10 |  | Optional |  |  |
 
