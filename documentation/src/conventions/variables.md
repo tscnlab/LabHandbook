@@ -6,7 +6,7 @@ The following presents a standardised way for naming variables and their respons
 
 ## Definition
 
-We agreed to use the following conventions for demographic variables and answer possibilities and for specific meaaurement instruments as for the Karolinska Sleepiness Scale (KSS) (10 is optional)
+We agreed to use the following conventions for demographic variables and answer possibilities and for specific meaaurement instruments as for the Karolinska Sleepiness Scale (KSS) (10 is optional).
 
 The standard YesNo question is a binary question with 1=Yes and 0=No.
 If more answer options are needed, the question must be named other, for example YesNomO (for YesNo multiple otions).
