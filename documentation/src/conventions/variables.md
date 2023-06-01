@@ -32,7 +32,7 @@ The option "Not collected" is not provided as a choice to select, this is an int
 |                    | sex                | Not collected                            | -1   |                       |                 |  Nicht erhoben |  |
 |                    | sex                | Prefer not to say                        | 0    |                       |                 |  Ich möchte keine Angaben dazu machen  |  |
 |  |  |  |  |  |  |  |  |
-| Gender             | gender             | Woman                                    | 1    |                       |                 |  Frau | Mit welchem Geschlecht identifizieren Sie sich? |
+| Gender             | gender             | Woman                                    | 1    | What gender do you identify with?|                 |  Frau | Mit welchem Geschlecht identifizieren Sie sich? |
 |                    | gender             | Man                                      | 2    |                       |                 |  Mann | |
 |                    | gender             | Non-binary                               | 3    |                       |                 |  Nicht binär | | 
 |                    | gender             | Other                                    | 4    |                       |                 |  Andere | | 
