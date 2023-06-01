@@ -41,7 +41,7 @@ The option "Not collected" is not provided as a choice to select, this is an int
 |  |  |  |  |  |  |  |  |
 | Age                | age                | Age in years                             |      |  Age in years         | integer value   | Alter in Jahren | Alter in Jahren |
 |  |  |  |  |  |  |  |  |
-| Employment         | employment_status  | Full time employed                       | 1    |                       |                 | Vollzeit | Wie sind Sie beschäftigt? |
+| Employment         | employment_status  | Full time employed                       | 1    |  What is your employment status?                     |                 | Vollzeit | Wie sind Sie beschäftigt? |
 |                    | employment_status  | Employed part time                       | 2    |                       |                 | Teilzeit | |
 |                    | employment_status  | Marginally employed (Minijob)            | 3    |                       |                 | Geringfügig beschäftigt (Minijob) | | 
 |                    | employment_status  | Not employed but studying or in training | 4    |                       |                 | Nicht beschäftigt aber in Studium oder Ausbildung | |
