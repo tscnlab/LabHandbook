@@ -64,7 +64,7 @@ The option "Not collected" is not provided as a choice to select, this is an int
 
 | Description        | Variable           | Meaning                                  | Code | Question              | Notes           | Meaning German | Question German |
 |--------------------|--------------------|------------------------------------------|------|-----------------------|-----------------|----------------|-----------------|
-| Karolinska Sleepiness Scale (KSS) | kss | Extremely alert | 1 |  |  | Extrem wach | Bitte bewerten Sie Ihre Schläfrigkeit in den letzten 5 Minuten |
+| Karolinska Sleepiness Scale (KSS) | kss | Extremely alert | 1 | Please rate your sleepiness in the last 5 minutes |  | Extrem wach | Bitte bewerten Sie Ihre Schläfrigkeit in den letzten 5 Minuten |
 |                             | kss | Very alert      | 2 |  |  | Sehr wach |  |
 |                             | kss | Alert           | 3 |  |  | Wach |  |
 |                             | kss | Rather alert    | 4 |  |  | Ziemlich wach |  |
