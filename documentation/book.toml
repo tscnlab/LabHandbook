@@ -4,3 +4,6 @@ language = "en"
 multilingual = false
 src = "src"
 title = "MPI-BC tSCN / TUM Chronobiology & Health Lab Handbook"
+
+[output.html]
+additional-css = ["custom.css"]
