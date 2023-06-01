@@ -53,7 +53,7 @@ The option "Not collected" is not provided as a choice to select, this is an int
 |                    | preferred_language | German                                   | 2    |                       |                 | Deutsch |
 |                    | preferred_language | None of them                             | 3    |                       |                 | Keine von diesen |
 |  |  |  |  |  |  |  |  |
-| Preferred language proficiency (self-rated) | preferred_language_proficiency | Native       | 4 |  |  | Muttersprache | Wie gut beherrschen Sie Ihre bevorzugte Sprache? |
+| Preferred language proficiency (self-rated) | preferred_language_proficiency | Native       | 4 | How proficient are you in your preferred language? |  | Muttersprache | Wie gut beherrschen Sie Ihre bevorzugte Sprache? |
 |                                             | preferred_language_proficiency | Advanced     | 3 |  |  | Fortgeschritten |  |  
 |                                             | preferred_language_proficiency | Intermediate | 2 |  |  | Mittleres Niveau |  |
 |                                             | preferred_language_proficiency | Basic        | 1 |  |  | Grundlegende Kenntnisse |  |
