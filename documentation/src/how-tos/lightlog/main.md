@@ -1,1 +1,1 @@
-# Standard Operating Procedure for Light logging 
+# Standard Operating Procedure for Light logging
