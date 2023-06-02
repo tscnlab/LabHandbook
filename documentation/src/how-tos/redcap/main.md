@@ -41,6 +41,7 @@ This How To describes the standard workflow when working with RedCap in the lab 
   - Press the “Import from file or system” button
   - Choose the file you have imoported from the other project and press the blue “Import” button
 - For a specific survey within one project
+
   - start by going to multi language management
   - select a “study” and modify its translations (don’t forget to save)
     ![Untitled](img/Untitled.png)

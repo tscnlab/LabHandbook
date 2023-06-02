@@ -161,6 +161,7 @@ Routine to save data.
 2. For each of the measurement….
 
    1. Click on “View” in the side pane
+
       1. On the menu bar go to “Export” > “Export DCM file”, save file as specified.
 
          ![Untitled](img/Untitled.png)
