@@ -12,19 +12,19 @@ The folder structure definition inherits several key naming conventions, includi
 
 ### Definitions
 
-An *experimental session* is a repeatable instance of a laboratory visit, such as a one-evening experiment. Each experimental session will have its own folder named `##_expsession`, where `##` is the running number. We consider screening visits an experimental session and place them in the `screening` folder. There are also data modalities that do not conform to this definition of a session, e.g. actigraphy or sleep diary measurements, which cannot be linked to a specific session. These are 
+An _experimental session_ is a repeatable instance of a laboratory visit, such as a one-evening experiment. Each experimental session will have its own folder named `##_expsession`, where `##` is the running number. We consider screening visits an experimental session and place them in the `screening` folder. There are also data modalities that do not conform to this definition of a session, e.g. actigraphy or sleep diary measurements, which cannot be linked to a specific session. These are
 
-A *block* is repeatable instance of a collection of different tests.
+A _block_ is repeatable instance of a collection of different tests.
 
-A *test* is a repeatable test, e.g. saliva or PVT, questionnaires. A test can be a collection of trials.
+A _test_ is a repeatable test, e.g. saliva or PVT, questionnaires. A test can be a collection of trials.
 
-Within a test, individual *trials* may occur, which are repeatable instance of a specific data collection unit, e.g. reaction time stimulus.
+Within a test, individual _trials_ may occur, which are repeatable instance of a specific data collection unit, e.g. reaction time stimulus.
 
 #### fMRI-specific definitions
 
 Within the fMRI world, there are specific terms that we also use for consistency and clarity.
 
-An *fMRI session* is a specific instance of participant entering the scanner.
+An _fMRI session_ is a specific instance of participant entering the scanner.
 
 Within an fMRI session, a participant will complete several runs, e.g. T1 structural scans or BOLD scans.
 
@@ -36,7 +36,7 @@ The overall folder structure is defined as follows. The following are well-defin
 $ProjectID/
 	ethics/
 	code/
-		$_repo		
+		$_repo
 	data*/
 		derivatives/
 		outputs/
@@ -49,13 +49,12 @@ $ProjectID/
 		sops/
 	outputs/
 	README.md
-	reports/ 
+	reports/
 		posters/
 		presentations/
 		manuscripts/
-  
-```
 
+```
 
 #### `README.md`
 
@@ -105,13 +104,13 @@ As an example:
 ```
 CiViBe/
 	data/
-		derivatives/ 
+		derivatives/
 		raw/
 			101
-				screening/ 
+				screening/
 					metropsis/
 						01_metropsis_<timestamp>/
-					oct/	
+					oct/
 						01_oct_<timestamp>/
 								01_oct_<timestamp>.metadata.txt
 								01_oct_<timestamp>.dicom
@@ -126,7 +125,7 @@ CiViBe/
 						01_sleepdiary_<timestamp>.metadata.txt
 				01_expsession/
 					log_<timestamp>.log <- Check (session-wise log)
-					metadata.txt <- 
+					metadata.txt <-
 
 
 
@@ -139,7 +138,7 @@ CiViBe/
 					01_pvt01_<timestamp>.csv
 						01_pvt01_<timestamp>.log (test-wise log)
 					oct/
-						<block>_<test>-<number>_<timestamp>.<filetype>		
+						<block>_<test>-<number>_<timestamp>.<filetype>
 						01_cornealthickness_<timestamp>.metadata.txt
 						01_cornealthickness_<timestamp>.dicom
 						01_cornealthickness_<timestamp>.csv
@@ -151,27 +150,25 @@ CiViBe/
 						02_macula_<timestamp>.csv
 ```
 
-
-The `screening` folder contains all information related to the screening session. 
+The `screening` folder contains all information related to the screening session.
 
 Timestamps follow the [Timestamps](timestamps.md) convention.
 
-#### `docs/` folder 
+#### `docs/` folder
 
 The `docs/` folder contains documentation related to the project.
 
-#### `materials/` folder 
+#### `materials/` folder
 
 The `materials/` folder contains questionnaires, SOPs and other materials to reproduce the data collectin effort.
 
-#### `outputs/` folder 
+#### `outputs/` folder
 
 The `outputs/` folder contains figures, tables and other data outputs related to the project that will be used in publications and other external documents. Note that the `data/` folder also contains an `outputs/` folder which contains intermediate figures.
 
 #### `reports/` folder
 
 The `reports/` folder contains any published outputs related to the project, including posters (in `posters/`), presentation decks (in `presentations/`) and manuscripts (`/manuscripts/`).
-
 
 ### Creating an empty structure
 

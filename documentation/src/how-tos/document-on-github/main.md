@@ -1,6 +1,6 @@
 # GitHub pull request tutorial
 
-Once you have created your github account, you have acces to many options : 
+Once you have created your github account, you have acces to many options :
 
 - Create repositories
 - Access other repositories
@@ -21,7 +21,7 @@ Once you have created your github account, you have acces to many options :
 **The easiest way is to do the changes and the pull request online**
 
 - You will have to fork the repository you want to work on :
-    - At the top right click on “fork”, I have already forked this repository so it shows it as “<username>/<fork_name>
+  - At the top right click on “fork”, I have already forked this repository so it shows it as “<username>/<fork_name>
 
 ![Untitled](img/untitled_1.png)
 
@@ -30,15 +30,12 @@ Once you have created your github account, you have acces to many options :
 ![Untitled](img/untitled_2.png)
 
 - If you now click on “Templates”, it will open the fork, a copy, of the repository you want to modify
-    - You can now modify “Templates” in your private repositories **WITHOUT** interacting with the main “Templates” branch
-        
-        ![**Always make sure that your forked branch is up to date with the main one, if not go to “Sync fork”**](img/untitled_3.png)
-        
-        **Always make sure that your forked branch is up to date with the main one, if not go to “Sync fork”**
-        
+  - You can now modify “Templates” in your private repositories **WITHOUT** interacting with the main “Templates” branch
+    ![**Always make sure that your forked branch is up to date with the main one, if not go to “Sync fork”**](img/untitled_3.png)
+    **Always make sure that your forked branch is up to date with the main one, if not go to “Sync fork”**
 - You now have an up to date modifiable version of the protected main branch
 
-### Now you are free to modify whatever you would like to, let’s say I want to edit the markdown file under *Templates/Documentation/src/how-tos/conda/conda.md*
+### Now you are free to modify whatever you would like to, let’s say I want to edit the markdown file under _Templates/Documentation/src/how-tos/conda/conda.md_
 
 ![**You can check in the ‘1’ area that you are in your personal repository and not the main branch. The ‘2’ area is used to edit the file.**](img/untitled_4.png)
 
@@ -50,7 +47,7 @@ Once you have created your github account, you have acces to many options :
 
 ## Add files or documents
 
-let’s say you want to add a file under *Templates/Documentation/src/how-to-conda/*
+let’s say you want to add a file under _Templates/Documentation/src/how-to-conda/_
 
 - simply go to the “add file” section and “Upload file”
 
@@ -59,11 +56,11 @@ let’s say you want to add a file under *Templates/Documentation/src/how-to-con
 ### Note that the files have to be in a specific format :
 
 - For tutorials : put them in Templates/documents/src/how-tos
-    - Create a new folder called <name of your tutorial> (ex: conda for “anacondas”)
-    - **NEVER use capital letters or spaces**
+  - Create a new folder called <name of your tutorial> (ex: conda for “anacondas”)
+  - **NEVER use capital letters or spaces**
 - inside this new folder :
-    - put a ‘main.md’ file for the markdown page you did
-    - put an ‘img’ folder for the images in .png or .jpg and the pdf contained in the markdown page
+  - put a ‘main.md’ file for the markdown page you did
+  - put an ‘img’ folder for the images in .png or .jpg and the pdf contained in the markdown page
 
 ## Pull request
 
@@ -77,7 +74,7 @@ let’s say you want to add a file under *Templates/Documentation/src/how-to-con
 
 ![**’1’ shows the modified documents, ‘2’ shows the actual changes. Once everything looks fine to you, you can tap ‘3’ “Create pull request”** ](img/untitled_8.png)
 
-**’1’ shows the modified documents, ‘2’ shows the actual changes. Once everything looks fine to you, you can tap ‘3’ “Create pull request”** 
+**’1’ shows the modified documents, ‘2’ shows the actual changes. Once everything looks fine to you, you can tap ‘3’ “Create pull request”**
 
 - This pull request will have to be reviewed and accepted by an admin of the MPI-tSCN github group.
 - Once the pull request is accepted, you will get a notification.
@@ -88,7 +85,7 @@ let’s say you want to add a file under *Templates/Documentation/src/how-to-con
 
 As you program on VSCode you might want to back it up on github
 
-- To do so simply open the tab on the left of VSCode  and click on “publish to GitHub”
+- To do so simply open the tab on the left of VSCode and click on “publish to GitHub”
 
 ![Untitled](img/Untitled_9.png)
 

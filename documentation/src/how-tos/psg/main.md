@@ -1,7 +1,7 @@
 # How to Polysomnography
 
 | Device       |                                                                 |
-|--------------|-----------------------------------------------------------------|
+| ------------ | --------------------------------------------------------------- |
 | Objective    |                                                                 |
 | Owner        | [Marcelo Stegmann](mailto:marcelo.stegmann@tuebingen.mpg.de)    |
 | Reviewer     |                                                                 |
