@@ -6,4 +6,4 @@ This is the Lab Handbook of the Integrated Research Group between the Max Planck
 
 ## Contributing
 
-To contribute to this book, please have a look at the [how to](./how-tos/document-on-github/main.md.
+To contribute to this book, please have a look at the [how to](./how-tos/document-on-github/main.md)
