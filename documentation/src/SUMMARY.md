@@ -2,9 +2,15 @@
 
 - [Introduction](./intro.md)
 
+- [Background](./background/main.md)
+	- [Mission Statement](./background/MissionStatement_2023.02.24_v1.2.md)
+
 - [Conventions](./conventions/main.md)
-    - [IDs and Naming](./conventions/identification-and-naming.md)
-    - [Terminology](./conventions/terminology.md)
+    - [Participant ID](./conventions/participant_id.md)
+    - [Project ID](./conventions/project_id.md)
+    - [Timestamps](./conventions/timestamps.md)
+    - [Variable conventions](./conventions/variables.md)
+    - [Folder structure](./conventions/folder_structure.md)
 
 - [Standard Operating Procedures](./sops/main.md)
     - [Template structure](./sops/template.md)
@@ -22,8 +28,8 @@
         - [Colorimeter Klein.md](./sops/light_measurement_devices/KleinColorimeter.md)
         - [Testo 175 H1](./sops/light_measurement_devices/testo175H1.md)
 
-
 -  [How To's](./how-tos/main.md)
     - [Template structure](./how-tos/template-software/main.md)
     - [Internal documentation on GitHub](./how-tos/document-on-github/main.md)
     - [Conda](./how-tos/conda/main.md)
+    - [RedCap](./how-tos/redcap/main.md)
