@@ -3,12 +3,11 @@
 | Device       | GoPro, Hero 10                                            |
 |--------------|-----------------------------------------------------------|
 | Objective    | High resolution images and videos.                        |
-| Owner        | [Alexander Hahn](mailto:alexander.hahn@tuebingen.mpg.de)  |
-| Reviewer     | [Niloufar Tabandeh](mailto:niloufar.tabandehsaravi@tuebingen.mpg.de) |
-| Approver     | [Niloufar Tabandeh](mailto:niloufar.tabandehsaravi@tuebingen.mpg.de) |
+| Owner        | [Niloufar Tabandeh](mailto:niloufar.tabandehsaravi@tuebingen.mpg.de)  |
+| Contributor     | [Alexander Hahn](mailto:alexander.hahn@tuebingen.mpg.de) |
 | Version      | _Start with 1.0.1_                                        |
-| Last edit    | [Alexander Hahn](mailto:alexander.hahn@tuebingen.mpg.de)  |
-| Date         | 18.04.2023                                                |
+| Last edit    | 12.06.23  |
+| Date         | 18.04.23                                                |
 
 ## Start up
 
@@ -53,7 +52,7 @@ Export/Access Data
    1. Open the slide on the side of the GoPro Hero 10 and take out the microSD card
    1. If your storage device does not have a slot for a microSD card, use a SD-to-microSD-adapter to connect the microSD carf to your device
    1. Export the preferred data. The videos are saved as .mp4-files and photos as .jpg-files. Besides these, .THM-, .GPR- and .LVM-files are also exportable. 
-		1. THM-files are a scaled down image format for thumbnails (160x120 pixels). 
+   		1. THM-files are a scaled down image format for thumbnails (160x120 pixels). 
 		2. GPR-files are compressed image-files that contain more data, allowing for improved picture quality. 
 		3. LRV-file is a low-quality video file, that is used for showing previews on the mobile App "Quik".
    1. Save the mp4.-, the JPG.-, and the GPR-files in the folder, which is used by the Python-Code for automated saving and renaming of the files. If you do not have access to the code or the code does not work, please save data manually according to the following guideline: 
