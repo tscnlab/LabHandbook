@@ -5,11 +5,10 @@ This SOP provides an overview over project specific measurements with the device
 | Device       | Westboro Photonics, WP690                                              |
 |--------------|-----------------------------------------------------------|
 | Objective    | Describe the measurements with WP690             |
-| Owner        | [Alexander Hahn](mailto:alexander.hahn@tuebingen.mpg.de)  |
-| Reviewer     | [Niloufar Tabandeh](mailto:niloufar.tabandehsaravi@tuebingen.mpg.de) |
-| Approver     | [Hannah Heinrichs](mailto:hannah.heinrichs@tuebingen.mpg.de) |
-| Version      | _Start with 1.0.0_                                        |
-| Last edit    |  |
+| Owner        | [Niloufar Tabandeh](mailto:niloufar.tabandehsaravi@tuebingen.mpg.de)  |
+| Contributor  | [Alexander Hahn](mailto:alexander.hahn@tuebingen.mpg.de) |
+| Version      | 1.0.1                                      |
+| Last edit    | 12.06.23 |
 | Date         | 20.04.23                                                |
 
 ## Start up
@@ -20,7 +19,7 @@ Checklist for materials
    2. Power cabel for power socket (if a power socket is available at the measurement scene)
    3. Power cabel for battery pack outlet (if no power socket is available at the measurement scene)
    4. Westboro Photonics Software on the Laptop
-   5. Lense cover
+   5. Lens cover
    6. USB-connector (WP690 to Laptop)
    7. Hard-drive
     
@@ -55,12 +54,17 @@ Export Data
 _Two types of data need to be extracted. First, the csv-file. Second, the pmm-file._ 
 
    1. Make sure that the hard-drive is connected to the laptop via USB.
-   1. CSV: Click on the ‘Export data’ tab in the Measurements section (second last icon to the left). A window opens, where you need to select the option csv-file and afterwards the location of storage. 
+   2. Automated saving via Python Code
+            1. CSV: Click on the ‘Export data’ tab in the Measurements section (second to last icon to the left). Save the data in the designated folder that is used by the Python Code (if you don´t know, which folder it is, you can look it up in the code). Save the data there, according to the following naming description: wp:time:.csv (e.g. wp0930.csv)
+            2. PMM: Click on the ‘Export pmm’ tab in the Measurements section (third to last icon to the left). Save the data in the designated folder that is used by the Python Code (if you don´t know, which folder it is, you can look it up in the code). Save the data there, according to the following naming description: wp:time:.pmm (e.g. wp0930.pmm)
+            3. Enter the necessary details for automated naming in the header of the Python Code and let the code run to copy, relocate and rename the files.
+   3. Manual saving
+            1. CSV: Click on the ‘Export data’ tab in the Measurements section (second last icon to the left). A window opens, where you need to select the option csv-file and afterwards the location of storage. 
        Save the data under Hard-Drive&rarr;rewocap&rarr;data&rarr;raw&rarr;ID-date&rarr;(e.g., 1001_20230208)&rarr;ID-time (e.g., 1001_20230208T0800) with the name wp690_year:month:dayTmeasurementtime (e.g. wp690_20230208T0930)
-   2. PMM: Click on the ‘Export PMM’ tab in the Measurements section (third last icon to the left). Save the data under Hard-Drive&rarr;rewocap&rarr;data&rarr;raw&rarr;ID (e.g., 1001_20230208) with the name wp690_year:month:dayTmeasurementtime.pmm (e.g. wp690_20230208T0930.pmm)
-   3. AFTER THE MEASUREMENT SESSION HAS ENDED, copy the folder ID-date (e.g., 1001_20230208) of the according date to the laptop storage: Desktop &arr; rewocap&rarr;data&rarr;raw
-   4. To save storage on the laptop, delete the earliest measurement (according to the ID-date) on the laptop, but only if you have made sure, that this folder is present on the hard-drive.
-   5. After you made sure the data is saved, erase the dataset in the software by left-clicking on the orange panel "Outdoor" and right-clicking "Delete". You are then asked if you are sure if you want to delete (click "OK") and afterwards if you want to save a restoring point (click "NO").
+            2. PMM: Click on the ‘Export PMM’ tab in the Measurements section (third last icon to the left). Save the data under Hard-Drive&rarr;rewocap&rarr;data&rarr;raw&rarr;ID (e.g., 1001_20230208) with the name wp690_year:month:dayTmeasurementtime.pmm (e.g. wp690_20230208T0930.pmm)
+            3. AFTER THE MEASUREMENT SESSION HAS ENDED, copy the folder ID-date (e.g., 1001_20230208) of the according date to the laptop storage: Desktop &arr; rewocap&rarr;data&rarr;raw
+            4. To free storage on the laptop, delete the earliest measurement (according to the ID-date) on the laptop, but only if you have made sure, that this folder is already present on the hard-drive.
+            5. After you made sure the data is saved, erase the dataset in the software by left-clicking on the orange panel "Outdoor" and right-clicking "Delete". You are then asked if you are sure if you want to delete (click "OK") and afterwards if you want to save a restoring point (click "NO").
 
 
 
