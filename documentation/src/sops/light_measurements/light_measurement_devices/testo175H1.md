@@ -4,11 +4,10 @@ This SOP provides an overview over project specific measurements with the Testo 
 
 | Device       | Testo, Thermometer & humidity logger, 175 H1                                     |
 |--------------|-----------------------------------------------------------|
-| Owner        | [Alexander Hahn](mailto:alexander.hahn@tuebingen.mpg.de)  |
-| Reviewer     | [Niloufar Tabandeh](mailto:niloufar.tabandehsaravi@tuebingen.mpg.de) |
-| Approver     | [Hannah Heinrichs](mailto:hannah.heinrichs@tuebingen.mpg.de) |
-| Version      | _Start with 1.0.0_                                        |
-| Last edit    | |
+| Owner        | [Niloufar Tabandeh](mailto:niloufar.tabandehsaravi@tuebingen.mpg.de)  |
+| Contributor     | [Alexander Hahn](mailto:alexander.hahn@tuebingen.mpg.de) |
+| Version      | 1.0.1.                                     |
+| Last edit    | 12.06.23 |
 | Date         | 22.04.23                                                |
 
 ## Start up
@@ -49,7 +48,7 @@ Export Data
    9. Go to Hard-Drive &rarr; rewocap &rarr; data &rarr; raw &rarr; ID (e.g., 1001_20230208) and create a new folder (named "100X_testo")
    10. Open "Microsoft Excel" and open a new Excel-sheet. Click on the field A1 and press strg+V to paste the measurements into the excel.
    11. Save the Excel-sheet in the folder "100X_testo", which you create shortly beforehand.
-   12. Close the Testo software
+   12. Close the Testo software.
    13. Disconnect the device from the mini-USB and put it back in its mounting on the black box.
 
 
