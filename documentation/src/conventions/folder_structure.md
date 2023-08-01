@@ -12,7 +12,7 @@ The folder structure definition inherits several key naming conventions, includi
 
 ### Definitions
 
-An *experimental session* is a repeatable instance of a laboratoryu visit, such as a one-evening experiment. Each 
+An *experimental session* is a repeatable instance of a laboratory visit, such as a one-evening experiment. Each experimental session will have its own folder named `##_expsession`, where `##` is the running number. We consider screening visits an experimental session and place them in the `screening` folder. There are also data modalities that do not conform to this definition of a session, e.g. actigraphy or sleep diary measurements, which cannot be linked to a specific session. These are 
 
 A *block* is repeatable instance of a collection of different tests.
 
@@ -37,17 +37,17 @@ $ProjectID/
 	ethics/
 	code/
 		$_repo		
-	data/
+	data*/
 		derivatives/
+		outputs/
 		raw.csv
 		raw/
 			$ParticipantID/
 	docs/
-	notebooks/
 	materials/
 		questionnaires/
 		sops/
-	output/
+	outputs/
 	README.md
 	reports/ 
 		posters/
@@ -55,6 +55,7 @@ $ProjectID/
 		manuscripts/
   
 ```
+
 
 #### `README.md`
 
@@ -66,19 +67,23 @@ The `ethics/` folder contains documentation about ethical approvals, including t
 
 #### `code/` folder
 
-The `code/` folder contains code used to run the experiment, analyse data, and other snippets of code to make the experiment reproducible. Depending on the project requirements, it is recommended to have separate GitHub repositories for different bits and pieces, e.g. separate out code to run the experiment from code to run the analysis. In any event, all code should be version-controlled on GitHUb.
+The `code/` folder contains code used to run the experiment, analyse data, and other snippets of code to make the experiment reproducible. Depending on the project requirements, it is recommended to have separate GitHub repositories for different bits and pieces, e.g. separate out code to run the experiment from code to run the analysis. In any event, all code should be version-controlled on GitHub.
 
-#### `data/` folder
+The `code/` folder may also include notebooks for reproducible analyses, e.g. Jupyter notebooks.
 
-The `data/` folder contains all data collected in the project. This includes raw, processed and derived data. The `raw/` data folder is included to be organised by participants. Depending on the project needs, the folder structure of `derivatives` can be more loosely populated. We consider derivatives data that are one step away from the raw data, e.g. manually cleaned or preprocessed data.
+#### `data*/` folder
+
+The `data*/` folder contains all data collected in the project. This includes raw, processed and derived data. The `raw/` data folder is included to be organised by participants. Depending on the project needs, the folder structure of `derivatives` can be more loosely populated. We consider derivatives data that are one step away or multiple steps from the raw data, e.g. manually cleaned or preprocessed data. The `outputs/` folder contains any outputs directly generated from the data that are useful but not meant for publication.
+
+The `data/` folder can be accompanied by a sufix that differentiates between data collected at different stages or under different experimental protocols. For example `data_pilot/` and `data_main/`. There can be as many data folders as needed, as long as the prefix of `data*/` is maintained, and each folder follows the same underlying structure or pattern.
 
 Data in in the `data/` folder follow the following pattern:
 
 ```
-$ProjectID/data/<processing step>/$ParticipantID/<session number>_expsession/<modality>/<block number>_<tests>[-<test number>]_<timestamp>.<file_extension>
+$ProjectID/data*/<processing step>/$ParticipantID/<session number>_expsession/<modality>/<block number>_<tests>[-<test number>]_<timestamp>.<file_extension>
 ```
 
-The `raw.csv` file contains an overview of the data collected and available in the folder.
+The `raw.csv` file contains an overview of the data collected and available in the `data/` folder. This is to keep an inventory of the data collected.
 
 The `data/raw/` folder is organised with the following subfolders:
 
@@ -90,8 +95,10 @@ data/raw/02_expsession/
 data/raw/03_expsession/
 ...
 data/raw/##_expsession##/
-
+data/raw/group/
 ```
+
+The `group/` folder contains any data that are collected and only available at the group level and not at the individual-participant level. This includes, for example, data from REDCap or from devices that only collect data from multiple participants.
 
 As an example:
 
@@ -113,19 +120,23 @@ CiViBe/
 					metadata.txt
 					actigraphy/
 						01_actigraphy_<timestamp>.txt
-					  	01_actigraphy_<timestamp>.metadata.txt
+						01_actigraphy_<timestamp>.metadata.txt
 					sleepdiary/
 						01_sleepdiary_<timestamp>.txt
 						01_sleepdiary_<timestamp>.metadata.txt
 				01_expsession/
 					log_<timestamp>.log <- Check (session-wise log)
-					metadata.txt <- Experimental meta-data
+					metadata.txt <- 
+
+
+
+					meta-data
 					resources/ <- Optional
 						00_beep.wav
 						00_stimulus_sequences.csv
 					pvt/
 						01_pvt01_<timestamp>.csv <- Check if block is 2 numbers, then string, then timestamp
-		        		01_pvt01_<timestamp>.csv
+					01_pvt01_<timestamp>.csv
 						01_pvt01_<timestamp>.log (test-wise log)
 					oct/
 						<block>_<test>-<number>_<timestamp>.<filetype>		
@@ -149,17 +160,13 @@ Timestamps follow the [Timestamps](timestamps.md) convention.
 
 The `docs/` folder contains documentation related to the project.
 
-#### `notebooks/` folder 
-
-The `notebooks/` folder contains computational notebooks related to the project, e.g. Jupyuter notebooks.
-
 #### `materials/` folder 
 
 The `materials/` folder contains questionnaires, SOPs and other materials to reproduce the data collectin effort.
 
-#### `output/` folder 
+#### `outputs/` folder 
 
-The `output/` folder contains figures, tables and other data outputs related to the project.
+The `outputs/` folder contains figures, tables and other data outputs related to the project that will be used in publications and other external documents. Note that the `data/` folder also contains an `outputs/` folder which contains intermediate figures.
 
 #### `reports/` folder
 
@@ -187,6 +194,6 @@ mkdir EMPTY_PROJECT/notebooks
 mkdir EMPTY_PROJECT/materials
 mkdir EMPTY_PROJECT/materials/questionnaires
 mkdir EMPTY_PROJECT/materials/sops
-mkdir EMPTY_PROJECT/output
+mkdir EMPTY_PROJECT/outputs
 touch EMPTY_PROJECT/README.md
 ```
