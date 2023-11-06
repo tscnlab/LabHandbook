@@ -17,6 +17,8 @@
     - [Actimetry](./sops/actimetry/main.md)
         - [Acttrust](./sops/actimetry/acttrust/acttrust.md)
     - [Mobile EEG](./sops/mobile-EEG/mobile-EEG.md)
+    - [Pupillometry](./sops/pupillometry/main.md)
+    - [Metropsis](./metropsis/metropsis.md)
     - [Ocular physiology measurements](./sops/ocular-physiology/main.md)
         - [OCT](./sops/ocular-physiology/oct/oct.md)
     - [Light measurements](./sops/light_measurement_devices/main.md)
