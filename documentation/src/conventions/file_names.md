@@ -19,15 +19,10 @@ Following these principles, filenames should: 
 ## Definitions 
 
 This generates the following naming scheme: 
-
 `YYYYMMDD_nameof_document.<FileExtension>`
 
-
 Example: 
-
-``` 
-20241006_abstract_sla.docx 
-``` 
+`20241006_abstract_sla.docx` 
 
 For collaborative files, such as documents which need to be reviewed by another person, a version and initials (capital letters) of the person who last edited the document must be added.  
 
