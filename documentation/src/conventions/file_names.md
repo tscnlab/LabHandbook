@@ -16,7 +16,7 @@ Following these principles, filenames should: 
 
 -   Have underscore separators between key words  
 
-## Definitions 
+### Definitions 
 
 This generates the following naming scheme: 
 `YYYYMMDD_nameof_document.<FileExtension>`
