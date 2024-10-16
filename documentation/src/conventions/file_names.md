@@ -20,10 +20,8 @@ Following these principles, filenames should: 
 
 This generates the following naming scheme: 
 
+*YYYYMMDD_nameof_document.<FileExtension>*
 
-``` 
-YYYYMMDD_nameof_document.<FileExtension> 
-``` 
 
 Example: 
 
