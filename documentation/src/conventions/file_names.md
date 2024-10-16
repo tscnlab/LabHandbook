@@ -1,10 +1,10 @@
-*File  names convention* 
+# File  names convention
 
-**Scope** 
+## Scope
 
 The following presents a standardised way for naming files within project folders, as well as collaborative files meant to be shared within lab members. 
 
-**Principles** 
+## Principles
 
 As a rule of thumb, file names must be machine readable, human readable, consistent,  and convenient for ordering within a folder. 
 
@@ -16,7 +16,7 @@ Following these principles, filenames should: 
 
 -   Have underscore separators between key words  
 
-Definitions 
+## Definitions 
 
 This generates the following naming scheme: 
 
