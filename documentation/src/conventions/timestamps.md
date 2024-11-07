@@ -32,3 +32,5 @@ print(timestamp)
 This code snippet retrieves the current date and time using datetime.now() and then formats it according to the desired pattern `%Y%m%dT%H%M%S`. The `%Y` represents the four-digit year, `%m` represents the two-digit month, `%d` represents the two-digit day, `%H` represents the two-digit hour in 24-hour format, `%M` represents the two-digit minute, and `%S` represents the two-digit second.
 
 The output will be a string representing the current timestamp in the `yyyyMMddTHHMMSS` format, following the ISO 8601 standard.
+
+> **_NOTE:_** To keep decimal seconds (microseconds) in the output, add the `%f`directive to the above, i.e., `%Y%m%dT%H%M%S.%f`. The whole command to do so is `datetime.now().strftime("%Y%m%dT%H%M%S.%f")` – the output will look like this: `20241107T101530.123456`.
