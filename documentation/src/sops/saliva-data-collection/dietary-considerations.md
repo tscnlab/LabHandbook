@@ -1,3 +1,15 @@
+| Measurement  | Salivary samples                                                |
+|--------------|-----------------------------------------------------------------|
+| Objective    | Defining dietary guidelines prior to saliva sample collection   |
+| Owner        | [Carolina Guidolin](mailto:carolina.guidolin@tuebingen.mpg.de)  |
+| Reviewer     |                                                                 |
+| Approver     |                                                                 |
+| Contributors | [Carolina Guidolin](mailto:carolina.guidolin@tuebingen.mpg.de)  |
+| Version      | 1.0.0                                                           |
+| Last edit    |  [Carolina Guidolin](mailto:carolina.guidolin@tuebingen.mpg.de) |
+| Date         | 20241119                                                       |
+
+
 # Dietary considerations for saliva data collection
 
 ***Note***: The below are indications for planning experiments. They are not participant-facing instructions, as these need to be adapted for each study.
