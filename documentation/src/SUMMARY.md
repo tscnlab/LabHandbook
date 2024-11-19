@@ -20,7 +20,7 @@
     - [Mobile EEG](./sops/mobile-EEG/mobile-EEG.md)
     - [Pupillometry](./sops/pupillometry/main.md)
     - [Metropsis](./metropsis/metropsis.md)
-    - [Saliva data collection](./sops/saliva-data-collection.md)
+    - [Saliva data collection](./sops/saliva-data-collection)
         - [Dietary considerations](./sops/saliva-data-collection/dietary-considerations.md)
     - [Ocular physiology measurements](./sops/ocular-physiology/main.md)
         - [OCT](./sops/ocular-physiology/oct/oct.md)
