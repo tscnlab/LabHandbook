@@ -17,7 +17,7 @@
 ## Throughout the study period
 
 Throughout the study period, participants should abstain from:
-- **Melatonin in any form**, including as tablets, sprays, gummy bears, supplements in tears or other forms
+- **Melatonin in any form**, including as tablets, sprays, gummy bears, supplements or other forms
 - **Sleep aids** or supplements of any kind
 - Antihistamines
 - Other medications, including NSAIDs
