@@ -3,7 +3,10 @@
 - [Introduction](./intro.md)
 
 - [Background](./background/main.md)
-	- [Mission Statement](./background/MissionStatement_2023.02.24_v1.2.md)
+	- [Mission Statement](./background/MissionStatement_2024.09.02_v1.4.md)
+
+- [Policies](./policies/main.md)
+    - [Use of equipment](./policies/equipment_use.md)
 
 - [Conventions](./conventions/main.md)
     - [Participant ID](./conventions/participant_id.md)
