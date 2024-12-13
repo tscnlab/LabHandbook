@@ -4,12 +4,12 @@
 |--------------|-----------------------------------------------------------|
 | Objective    | Describe policies for equipment use                      |
 | Owner        | [Manuel Spitschan](mailto:manuel.spitschan@tum.de) |
-| Reviewer     | n/a |
-| Approver     | n/a |
-| Contributors | n/a |
-| Version      | 1.0.0                                      |
+| Reviewer     | n/a                                                |
+| Approver     | n/a                                                |
+| Contributors | n/a                                                |
+| Version      | 1.0.0                                              |
 | Last edit    | [Manuel Spitschan](mailto:manuel.spitschan@tum.de) |
-| Date         | 20241213                                             |
+| Date         | 20241213                                           |
 
 ## Background
 
@@ -21,11 +21,11 @@ Equipment is generally shared between projects and researchers. Given finite res
 
 Please follow these guidelines when using equipment:
 
-* Read the instruction manual or handbook for any equipment carefully that you will use for your research
-* Use the equipment carefully, ensuring that it remains functional and also clean
-* Pay particular attention to using USB connectors and connect and disconnect cables carefully, with no use of mechanical force
-* Individuals in the Unit likely have ample experience with the equipment you will be using. If you are unsure who this might be, get in touch with Manuel to ask
-* Equipment should be returned in a functional and clean state such that the next person using it will have no problems using it
+- Read the instruction manual or handbook for any equipment carefully that you will use for your research
+- Use the equipment carefully, ensuring that it remains functional and also clean
+- Pay particular attention to using USB connectors and connect and disconnect cables carefully, with no use of mechanical force
+- Individuals in the Unit likely have ample experience with the equipment you will be using. If you are unsure who this might be, get in touch with Manuel to ask
+- Equipment should be returned in a functional and clean state such that the next person using it will have no problems using it
 
 ## Inventory
 
@@ -38,7 +38,6 @@ Upon checking out equipment for a project, please perform a first check to ensur
 ## Cleaning
 
 Equipment should be kept clean. After every participant, components that directly touch the participants' skin, such as chin rests should be disinfected. In particular wrist straps require also in-depth cleaningcleaning.
-
 
 ## Logging errors and faults
 
