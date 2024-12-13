@@ -27,7 +27,7 @@ Notes: can be installed locally
 ## Conda Set-up in VSCode
 
 - Create a file under your working folder in VS Code (to do this, see: [Visual Studio Code](https://www.notion.so/Visual-Studio-Code-d2b91b39d10a48eba1b8cdb2a3ace365) How-to)
-- Open a new Terminal and select **_cmd_** on the RHS (not ****\*\*\*****powershell!****\*\*\*****)
+- Open a new Terminal and select **_cmd_** on the RHS (not \***\*\*\*\*\*\***powershell!\***\*\*\*\*\*\***)
   ![**Important note : if you are on mac, you should use zsh since cmd is windows specific**](img/description_2.png)
   **Important note : if you are on mac, you should use zsh since cmd is windows specific**
 - In the terminal, type:
