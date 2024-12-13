@@ -31,10 +31,12 @@ All Metropsis measurements for the CiViBe project have to be done with the lens.
    > Your task is to press buttons on the response box in front of you according to the instructions._
 
 6. Hand participant the response box.
+
    1. Response box must be in the **correct direction** !!! (can just add this at the end of metropsis description for the first task - less info for participant and clearer for them)
 
       > _This is the response box that will record your answers.
       > For a response, please press the respective button only briefly (and lightly) so that you hear **one** beep. If you hear two beeps, you are pressing to hard or too long. If you don’t hear a beep, then press again._
+
 7. Start the testing.
 
    > _We will go through one whole block without breaks, a block repeats three times three separate tests and will take about 35 to 40 minutes_
