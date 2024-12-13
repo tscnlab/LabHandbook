@@ -15,7 +15,7 @@ _For creating neat tables, you can use a [Online Table Generator](https://www.ta
 | Contributors | [Firstname Lastname](mailto:firstname.lastname@domain.de) |
 | Version      | _Start with 1.0.0_                                        |
 | Last edit    | [Firstname Lastname](mailto:firstname.lastname@domain.de) |
-| Date         | dd.mm.YYYY                                                |
+| Date         | 20241213                                               |
 
 ## Start up
 
