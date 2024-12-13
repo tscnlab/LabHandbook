@@ -12,7 +12,7 @@
 1. Participants are seated in front of the device
 2. Adapt chair height, table height and chin rest → eyes are on the height of lenses
 
-   > ******\*\*\*\*******Please keep your hands on your lap (and not on the table)******\*\*\*\*******
+   > **\*\***\*\*\*\***\*\***Please keep your hands on your lap (and not on the table)**\*\***\*\*\*\***\*\***
 
 3. Instruct participant
 

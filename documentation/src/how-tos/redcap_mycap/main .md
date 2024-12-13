@@ -8,10 +8,10 @@
 - User rights
   - Even though you maybe created an own project that doesn’t mean that you have all the rights. If you really want to be able to do everything needed on RedCap you have to give yourself (/ or the person who is allowed to do that gives you) all the rights to edit the surveys.
   - Go to “User Rights”
-  ![Untitled](img/picture1.png)
+    ![Untitled](img/picture1.png)
   - click on your name → “Edit user privileges”
   - On the left side you scroll down and enable “Rename Records” and “Delete Records”, on the right side the settings should look like this (optional also “Edit survey responses”
-  ![Untitled](img/picture2.png)
+    ![Untitled](img/picture2.png)
   - Now you have all the nescessary rights
 - Setting Up MyCap (RedCap):
   - Go to Project Set Up → Main project settings
@@ -20,11 +20,11 @@
   - Go to Designer
   - You have to add a new instrument as a first one(e.g. Introduction) (MyCap needs one survey in the beginning which it doesn’t include in the App)
   - A new column will show up where you can enable the survey as a MyCap task
-  ![Untitled](img/picture3.png)
+    ![Untitled](img/picture3.png)
   - RedCap will tell you that it has to add fields for MyCap, they will not be seen by the participants (don’t forget to delete them when you decide disable MyCap again)
   - You can fill out the settings (especially the task schedule settings) → save
   - very important! everytime that you change something you have to press the green button “Publish new MyCap version”. Without that you will have no survey in the app and no changes will be transported
-  ![Untitled](img/picture4.png)
+    ![Untitled](img/picture4.png)
   - You also have a new field now on the left side called “MyCap Participant Management”
 - Adding a new Participant for MyCap
   - Go to “Add/Edit records” → “Add new record” → pick the additional survey (that you maybe also called Introduction) → you can select complete but you dont have to → Save & Exit form

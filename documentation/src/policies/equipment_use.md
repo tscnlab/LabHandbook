@@ -1,8 +1,8 @@
 # Equipment use
 
-| Policy       | Equipment use                                             |
-|--------------|-----------------------------------------------------------|
-| Objective    | Describe policies for equipment use                      |
+| Policy       | Equipment use                                      |
+| ------------ | -------------------------------------------------- |
+| Objective    | Describe policies for equipment use                |
 | Owner        | [Manuel Spitschan](mailto:manuel.spitschan@tum.de) |
 | Reviewer     | n/a                                                |
 | Approver     | n/a                                                |
