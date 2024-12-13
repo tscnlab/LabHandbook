@@ -1,8 +1,8 @@
 # Equipment use
 
-| Device       | Brand, Model                                              |
+| Policy       | Equipment use                                             |
 |--------------|-----------------------------------------------------------|
-| Objective    | _Describe objective of measurements_                      |
+| Objective    | Describe policies for equipment use                      |
 | Owner        | [Manuel Spitschan](mailto:manuel.spitschan@tum.de) |
 | Reviewer     | n/a |
 | Approver     | n/a |
