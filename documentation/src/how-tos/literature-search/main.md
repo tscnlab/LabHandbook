@@ -1,6 +1,6 @@
 # Literature search
 
-## General 
+## General
 
 Searching, finding, reading, evaluating, and summarizing research articles are vital skills for academics, researchers, and anyone seeking reliable information. These processes form the backbone of evidence-based knowledge and contribute significantly to the advancement of various fields. It may not be obvious how to do this, and this entry will help with this. It is a living document.
 

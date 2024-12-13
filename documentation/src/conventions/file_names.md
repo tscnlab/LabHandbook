@@ -1,4 +1,4 @@
-# File  names convention
+# File names convention
 
 ## Scope
 
@@ -6,15 +6,15 @@ The following presents a standardised way for naming files within project folder
 
 ## Principles
 
-As a rule of thumb, file names must be machine readable, human readable, consistent,  and convenient for ordering within a folder. 
+As a rule of thumb, file names must be machine readable, human readable, consistent, and convenient for ordering within a folder. 
 
 Following these principles, filenames should: 
 
--   Start with a timestamp (refer to Timestamp convention), 
+- Start with a timestamp (refer to Timestamp convention), 
 
--   Contain key words explaining the content of the document, using lowercase 
+- Contain key words explaining the content of the document, using lowercase 
 
--   Have underscore separators between key words  
+- Have underscore separators between key words  
 
 ### Definitions 
 
