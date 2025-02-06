@@ -46,7 +46,7 @@ Software:
 1. Put the eye tracker on participant
 2. Adjust the eye cameras so that they detect the pupil perfectly, and that the whole eye is in the image
    - For more precision, ask the participant to squint a bit and adjust accordingly. The aim is that the pupil is still detected when squinting, and not hindered by eyelashes
-3. In the software, click on the big -(R)_ button on the left-hand side of the main window to start a recording
+3. In the software, click on the big _(R)_ button on the left-hand side of the main window to start a recording
 4. Click on that same _(R)_ button to stop the recording
 
 _See screenshot above for example_
