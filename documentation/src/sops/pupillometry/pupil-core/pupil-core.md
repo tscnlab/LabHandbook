@@ -36,7 +36,7 @@ All devices and software manuals for the device and software used can be accesse
 ## Preparation
 
 Software:
-1. Go the the _plugins_ panel on the right-hand side and select all the plugins you need (e.g. _Blink detector_, _Annotations capture_)
+1. Go the the _plugins_ panel on the right-hand side and select all the plugins you need (e.g. _Blink detector_, _Annotation capture_)
 2. Check other panels for more settings (including _general_ for output recording directory)
    - Depending on what the focus is for the measurements, certain plugins may be activated/deactivated 
 3. If the eye cameras are well adjusted, the pupil detection confidence values (small metrics at the top of the main window, one for each eye) should be close to 1 (i.e., 100% confidence in the measurements) at all times
