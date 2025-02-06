@@ -71,7 +71,7 @@ All devices and software manuals for the device and software used can be accesse
 
 <img src="img/emg_10.png" alt="Software setup" width="600">
 
-_NOTE: This configuration can be saved in Biolab+, so it does not need to be set up before each trial. As long as the number of channels in use remains the same, you only need to do this once. Or you can open the saved setup file and then edit it. You can also copy the current configuration and paste it to add new channels faster._
+_NOTE: This configuration can be saved in OTBiolab+, so it does not need to be set up before each trial. So, as long as the number of channels in use remains the same, you only need to do this once. Or you can open the saved setup file and then edit it. You can also copy the current configuration and paste it to add new channels faster._
 
 - OTBiolab Light:
   1. Make sure OTBiolab+ is closed! Both software cannot run simultaneously
@@ -81,7 +81,7 @@ _NOTE: This configuration can be saved in Biolab+, so it does not need to be set
      - Rest is up to you
   3. Click _Start_ to initiate connection with device
      - There should be a prompt: _Acquisition started – don't close OTBiolab Light_ 
-  4. The rest should be handled by your chosen software
+  4. The rest should be handled by your own software
 
 ## General Procedure
 
@@ -89,7 +89,7 @@ Placing electrodes:
   1. If needed, gently apply skin prep gel to skin surface with the gauze (careful not to rub too much – gel is abrasive!)
      - In theory, the measured area must be shaved beforehand – even if there are no visible hair 
   2. Place electrodes 
-     - Don't forget ground electrode! Can placed on the forehead near the hairline, on the elbow, behinf the neck… Basically wherever no muscle / electrical activity occurs
+     - Don't forget ground electrode! Can placed on the forehead near the hairline, on the elbow, behind the neck… Basically wherever no muscle / electrical activity occurs
   3. Plug the cables to the electrodes
      - Careful to make sure to match (or take note of) the channel numbers and the right muscle you want to measure
   4. Tuck cables away, to make sure no cables obstruct participant therefore ensuring good data. 
