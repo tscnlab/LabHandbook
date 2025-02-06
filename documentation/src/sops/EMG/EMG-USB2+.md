@@ -113,7 +113,9 @@ Recording from OTBiolab+:
 | ----------- | ------------------------------------------------------ |
 | PSR Project   | [PSR project measurement A](#measurement-a-in-psr-project) |
 
-A list of all facial muscles theoretically measurable is visible [here](img/emg_9.png) (from: Kovalchuk, Y.; Budini, E.; Cook, R.M.; Walsh, A. Investigating the Relationship between Facial Mimicry and Empathy. Behav. Sci. 2022, 12, 250. https://doi.org/10.3390/bs12080250)
+A list of all facial muscles theoretically measurable is visible below (from: Kovalchuk, Y.; Budini, E.; Cook, R.M.; Walsh, A. Investigating the Relationship between Facial Mimicry and Empathy. Behav. Sci. 2022, 12, 250. https://doi.org/10.3390/bs12080250)
+
+<img src="img/emg_9.png" alt="Software setup" width="600">
 
 Placing electrodes:
 1. Place electrodes on the desired muscles
