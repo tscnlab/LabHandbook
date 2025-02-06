@@ -78,7 +78,7 @@ Ask [Lucien Bickerstaff](mailto:lucien.bickerstaff@tuebingen.mpg.de) if you need
 
 _No other variations recorded yet_
 
-## Data Saving
+## Data Saving and Exporting
 
 Data is saved automatically in Pupil Capture after stopping recording.
 
