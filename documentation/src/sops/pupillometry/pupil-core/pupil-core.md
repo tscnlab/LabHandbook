@@ -46,8 +46,12 @@ Software:
 1. Put the eye tracker on participant
 2. Adjust the eye cameras so that they detect the pupil perfectly, and that the whole eye is in the image
    - For more precision, ask the participant to squint a bit and adjust accordingly. The aim is that the pupil is still detected when squinting, and not hindered by eyelashes
-3. In the software, click on the big _(R)_ button on the left-hand side of the main window to start a recording
-4. Click on that same _(R)_ button to stop the recording
+3. Ask participant to look around – left, right, top, bottom – for a good 10 to 20 seconds. The aim here is to give enough information to the software to create an accurate 3D model of the eye, allowing for accurate pupil measurements
+   - The outline of the model in the eye camera windows should be dark blue, not sky blue!
+4. At this point, you can choose to freeze the eye model by going into the parameters of each of the eye camera windows and turning on _Freeze model_.
+   - This will avoid the software continuously adapting the eye model during recording, creating more stable data – provided there is little head / device movement during the whole recording! Then the measurements will be inacurate.
+5. In the software, click on the big _(R)_ button on the left-hand side of the main window to start a recording
+6. Click on that same _(R)_ button to stop the recording
 
 _See screenshot above for example_
 
