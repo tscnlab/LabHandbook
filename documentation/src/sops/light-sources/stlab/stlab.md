@@ -18,37 +18,39 @@ The manual for the device used can be accessed on this repository [here](./manua
 ## Start up
 
 - Checklist for materials
-  1. Hardware:
-      - Light source
+  - Hardware:
+    1. Light source:
 
-<img src="img/stlab-2.png" alt="Light source" width="200">
+        <img src="img/stlab-2.png" alt="Light source" width="200">
 
-      - Light Hub
+    2. Light Hub:
 
-<img src="img/stlab-3.png" alt="Light hub" width="200">
+        <img src="img/stlab-4.png" alt="Light hub" width="200">
 
-  1. Software:
-     - µWave software (can be installed on Windows machine from the provided USB stick
+  - Software:
+    1. µWave software (can be installed on Windows machine from the provided USB stick:
 
-<img src="img/stlab-5.png" alt="USB stick" width="200">
+        <img src="img/stlab-5.png" alt="USB stick" width="200">
 
-     - PyPlr package, if communication through Python necessary. It has a ```pyplr.stlab``` module for handling many STLab features. Access the documentation at https://pyplr.github.io/cvd_pupillometry/07_api.html#pyplr-stlab.
+    2. PyPlr package, if communication through Python necessary. It has a ```pyplr.stlab``` module for handling many STLab features.
+
+         Access the documentation at https://pyplr.github.io/cvd_pupillometry/07_api.html#pyplr-stlab.
 
          Martin, Joel, T., & Spitschan, M. (2021). PyPlr (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.6724918
   
 - Start up system
   1. Connect the device: make sure the light source is connected as follows (from the manual):
 
-<img src="img/stlab-1.png" alt="Connection diagram" width="400">
+      <img src="img/stlab-1.png" alt="Connection diagram" width="400">
 
   2. Turn on device: power button at the back of the device
   3. Start software, either:
      - µWave – user-friendly, GUI based 
      - Python for more control through PyPlr
 
-_NOTE: The workshop has built a nice little holder for ND filter at the front of the device. Make sure that the ND filter is not under pressure from overtightening the screws. When you change the filter, unplug the light source. Nothing will hold the filter from falling when you unscrew the holder – be extra careful to hold the light source upright._
+_NOTE: The workshop built a nice little holder for placing ND filters at the front of the device. Make sure that the ND filter is not under pressure from overtightening the screws. When you change the filter, unplug the light source. Nothing will hold the filter from falling when you unscrew the holder – be extra careful to hold the light source upright._
 
-<img src="img/stlab-4.png" alt="Filter holder" width="200">
+  <img src="img/stlab-3.png" alt="Filter holder" width="200">
 
 ## Preparation
 
@@ -92,7 +94,7 @@ PyPlr:
 | PSR Project   | [PSR project measurement A](#measurement-a-in-psr-project) |
 
 In the PSR project, the light source is controlled with PyPlr.
-Sequences of 30-second light stimulation are played using so called video files (.json).
+Sequences of 30-second light stimulation are played using so called .dsf video files (essentially .json files).
 This allows to program the different commands to send to the light source beforehand.
 
 For more info, ask [Lucien Bickerstaff](mailto:lucien.bickerstaff@tuebingen.mpg.de).
@@ -132,6 +134,8 @@ _No data saving_
 
 In the PSR project, a need for a gradual ramp-up and ramp-down in the sequences led to creating a variation of the ```pulse_protocol``` function to handle this specific need.
 The video files are created and then stored in a _resources/video_files_ folder, for later access for light sequence playback.
+
+For more info, ask [Lucien Bickerstaff](mailto:lucien.bickerstaff@tuebingen.mpg.de).
 
 ## Storage transfer in PSR Project
 
