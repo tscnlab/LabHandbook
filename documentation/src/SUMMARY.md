@@ -33,6 +33,8 @@
   - [Saliva data collection: Dietary considerations](./sops/saliva-data-collection/dietary-considerations.md)
   - [Ocular physiology measurements](./sops/ocular-physiology/main.md)
     - [OCT](./sops/ocular-physiology/oct/oct.md)
+  - [Light sources](./sops/light-sources/main.md)
+    - [Spectra Tune Lab](./sops/light-sources/stlab/stlab.md)
   - [Light measurements](./sops/light_measurement_devices/main.md)
     - [Go Pro Hero10](./sops/light_measurement_devices/GoProHero10.md)
     - [Circadiometer WP 690](./sops/light_measurement_devices/CircadiometerWP690.md)
