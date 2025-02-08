@@ -1,15 +1,15 @@
 # Standard Operating Procedure for Pupil Core eye tracking device
 
-| Device       | Pupil Labs, Pupil Core eye tracking system                                              |
-| ------------ | --------------------------------------------------------- |
-| Objective    | Measuring eye activity (pupil size, blinks, gaze…)                    |
+| Device       | Pupil Labs, Pupil Core eye tracking system                       |
+| ------------ | ---------------------------------------------------------------- |
+| Objective    | Measuring eye activity (pupil size, blinks, gaze…)               |
 | Owner        | [Lucien Bickerstaff](mailto:lucien.bickerstaff@tuebingen.mpg.de) |
-| Reviewer     |  |
-| Approver     |  |
+| Reviewer     |                                                                  |
+| Approver     |                                                                  |
 | Contributors | [Lucien Bickerstaff](mailto:lucien.bickerstaff@tuebingen.mpg.de) |
-| Version      | 1.0.0                                        |
+| Version      | 1.0.0                                                            |
 | Last edit    | [Lucien Bickerstaff](mailto:lucien.bickerstaff@tuebingen.mpg.de) |
-| Date         | 20250205                                                  |
+| Date         | 20250205                                                         |
 
 ## Manuals
 
@@ -19,9 +19,8 @@ All devices and software manuals for the device and software used can be accesse
 
 - Checklist for materials
   1. Hardware: [Eye tracker](https://docs.pupil-labs.com/core/hardware/)
-  4. Software: [Pupil Capture](https://docs.pupil-labs.com/core/software/pupil-capture/)
-  5. Software: [Pupil Player](https://docs.pupil-labs.com/core/software/pupil-player/)
-  
+  2. Software: [Pupil Capture](https://docs.pupil-labs.com/core/software/pupil-capture/)
+  3. Software: [Pupil Player](https://docs.pupil-labs.com/core/software/pupil-player/)
 - Start up system
   1. Plug in hardware into computer USB port
   2. Start software (Pupil Player – round shaped icon). 4 windows should open:
@@ -36,9 +35,10 @@ All devices and software manuals for the device and software used can be accesse
 ## Preparation
 
 Software:
+
 1. Go the the _plugins_ panel on the right-hand side and select all the plugins you need (e.g. _Blink detector_, _Annotation capture_)
 2. Check other panels for more settings (including _general_ for output recording directory)
-   - Depending on what the focus is for the measurements, certain plugins may be activated/deactivated 
+   - Depending on what the focus is for the measurements, certain plugins may be activated/deactivated
 3. If the eye cameras are well adjusted, the pupil detection confidence values (small metrics at the top of the main window, one for each eye) should be close to 1 (i.e., 100% confidence in the measurements) at all times
 
 ## General Procedure
@@ -59,14 +59,15 @@ _See screenshot above for example_
 
 ### Measurement A
 
-| Description | Link to variation                                      |
-| ----------- | ------------------------------------------------------ |
-| PSR Project   | [PSR project measurement A](#measurement-a-in-psr-project) |
+| Description | Link to variation                                          |
+| ----------- | ---------------------------------------------------------- |
+| PSR Project | [PSR project measurement A](#measurement-a-in-psr-project) |
 
 The measurements are made through PyPlr, as Python package that has a module for recording using Pupil Core: Martin, Joel, T., & Spitschan, M. (2021). PyPlr (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.6724918
 
 Focus is set on measuring pupil responses like the Pupillary Light Reflex (PLR) or the Post-Illumination Pupil Response (PIPR).
 The following plugins may then be activated:
+
 - Blink detector
 - Annotation capture
 
@@ -82,7 +83,7 @@ _No other variations recorded yet_
 
 Data is saved automatically in Pupil Capture after stopping recording.
 
-- Access and export saved data 
+- Access and export saved data
   1. Start Pupil Player software (triangle shaped icon)
   2. Find the directory of your pupillometry recording – folder is likely named _000_
   3. Drag this folder into the Pupil Player window
@@ -93,13 +94,14 @@ Data is saved automatically in Pupil Capture after stopping recording.
 
 <img src="img/pupil_2.png" alt="USB cable" width="600">
 
-| Description | Link to variation                                              |
-| ----------- | -------------------------------------------------------------- |
-| PST Project   | [PSR Project storage transfer](#storage-transfer-in-psr-project)   |
+| Description | Link to variation                                                |
+| ----------- | ---------------------------------------------------------------- |
+| PST Project | [PSR Project storage transfer](#storage-transfer-in-psr-project) |
 
 ## Shut down
 
 Software:
+
 - Close the consoles, which in turn will close all the other windows. Or close all windows manually
 
 ---
